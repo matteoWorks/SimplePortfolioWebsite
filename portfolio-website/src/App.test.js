@@ -1,3 +1,6 @@
+// TESTS NOT IMPLEMENTED IN THIS WEBSITE
+// DEFAULT TEST BELOW:
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
