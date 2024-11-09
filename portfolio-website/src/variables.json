@@ -1,0 +1,125 @@
+{
+    "fullName": "Matteo Baggio",
+    "occupation": "Software Developer",
+    "contacts": [
+        {"contactName": "contact1", "contactImage": "contactImage1", "contactLink": "contactLink1"},
+        {"contactName": "contact2", "contactImage": "contactImage2", "contactLink": "contactLink2"},
+        {"contactName": "contact3", "contactImage": "contactImage3", "contactLink": "contactLink3"}
+    ],
+    "experiences": [
+        {"experienceRole": "experience1", "experienceContract": "experienceContract1", "experienceStartDate": "experienceStartDate1", "experienceEndDate": "experienceEndDate1", "experienceCompany": "experienceCompany1", "experienceCompanyLink": "experienceCompanyLink1",
+            "experienceSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "experienceDescriptions": [
+                {"description": "description1", "lastDescription": "false"},
+                {"description": "description2", "lastDescription": "false"},
+                {"description": "description3", "lastDescription": "true"}
+            ],
+            "experienceColourLight": "experienceColourLight1", "experienceColourDark": "experienceColourDark1"
+        },
+        {"experienceRole": "experience2", "experienceContract": "experienceContract2", "experienceStartDate": "experienceStartDate2", "experienceEndDate": "experienceEndDate2", "experienceCompany": "experienceCompany2", "experienceCompanyLink": "experienceCompanyLink2",
+            "experienceSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "experienceDescriptions": [
+                {"description": "description1", "lastDescription": "false"},
+                {"description": "description2", "lastDescription": "false"},
+                {"description": "description3", "lastDescription": "true"}
+            ],
+            "experienceColourLight": "experienceColourLight2", "experienceColourDark": "experienceColourDark2"
+        },
+        {"experienceRole": "experience3", "experienceContract": "experienceContract3", "experienceStartDate": "experienceStartDate3", "experienceEndDate": "experienceEndDate3", "experienceCompany": "experienceCompany3", "experienceCompanyLink": "experienceCompanyLink3",
+            "experienceSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "experienceDescriptions": [
+                {"description": "description1", "lastDescription": "false"},
+                {"description": "description2", "lastDescription": "false"},
+                {"description": "description3", "lastDescription": "true"}
+            ],
+            "experienceColourLight": "experienceColourLight3", "experienceColourDark": "experienceColourDark3"
+        }
+    ],
+    "educations": [
+        {"educationName": "educationName1", "educationSchool": "educationSchool1", "educationSchoolLink": "educationSchoolLink1", "educationStartDate": "educationStartDate1", "educationEndDate": "educationEndDate1",
+            "educationSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "educationColourLight": "educationColourLight1", "educationColourDark": "educationColourDark1"
+        },
+        {"educationName": "educationName1", "educationSchool": "educationSchool1", "educationSchoolLink": "educationSchoolLink1", "educationStartDate": "educationStartDate1", "educationEndDate": "educationEndDate1",
+            "educationSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "educationColourLight": "educationColourLight2", "educationColourDark": "educationColourDark2"
+        },
+        {"educationName": "educationName2", "educationSchool": "educationSchool2", "educationSchoolLink": "educationSchoolLink2", "educationStartDate": "educationStartDate2", "educationEndDate": "educationEndDate2",
+            "educationSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "educationColourLight": "educationColourLight3", "educationColourDark": "educationColourDark3"
+        }
+    ],
+    "certificates": [
+        {"certificateName": "certificateName1", "certificateLink": "certificateLink1", "certificateType": "certificateType1", "certificateCompany": "certificateCompany1", "certificateCompanyLink": "certificateCompanyLink1", "certificateDate": "certificateDate1",
+            "certificateSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "certificateColourLight": "certificateColourLight1", "certificateColourDark": "certificateColourDark1"
+        },
+        {"certificateName": "certificateName2", "certificateLink": "certificateLink2", "certificateType": "certificateType2", "certificateCompany": "certificateCompany2", "certificateCompanyLink": "certificateCompanyLink2", "certificateDate": "certificateDate2",
+            "certificateSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "certificateColourLight": "certificateColourLight2", "certificateColourDark": "certificateColourDark2"
+        },
+        {"certificateName": "certificateName3", "certificateLink": "certificateLink3", "certificateType": "certificateType3", "certificateCompany": "certificateCompany3", "certificateCompanyLink": "certificateCompanyLink3", "certificateDate": "certificateDate3",
+            "certificateSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ],
+            "certificateColourLight": "certificateColourLight3", "certificateColourDark": "certificateColourDark3"
+        }
+    ],
+    "skillGroups": [
+        {"skillGroupName": "skillGroupName1",
+            "skillGroupSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ]
+        },
+        {"skillGroupName": "skillGroupName2",
+            "skillGroupSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ]
+        },
+        {"skillGroupName": "skillGroupName3",
+            "skillGroupSkills": [
+                {"skillName": "skillName1", "skillImage": "skillImage1"},
+                {"skillName": "skillName2", "skillImage": "skillImage2"},
+                {"skillName": "skillName3", "skillImage": "skillImage3"}
+            ]
+        }
+    ]
+}
