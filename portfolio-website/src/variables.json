@@ -1,10 +1,10 @@
 {
-    "fullName": "Matteo Baggio",
-    "occupation": "Software Developer",
+    "name": "Matteo",
+    "occupation": "Software Engineer",
     "contacts": [
-        {"contactName": "contact1", "contactImage": "contactImage1", "contactLink": "contactLink1"},
-        {"contactName": "contact2", "contactImage": "contactImage2", "contactLink": "contactLink2"},
-        {"contactName": "contact3", "contactImage": "contactImage3", "contactLink": "contactLink3"}
+        {"contactName": "Protonmail", "contactLogo": "logo_protonmail.png", "contactLink": "mailto:morningape@protonmail.com"},
+        {"contactName": "LinkedIn", "contactLogo": "logo_linkedin.png", "contactLink": "https://it.linkedin.com/in/baggio-matteo"},
+        {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "https://github.com/ShameIRL"}
     ],
     "experiences": [
         {"experienceRole": "experience1", "experienceContract": "experienceContract1", "experienceStartDate": "experienceStartDate1", "experienceEndDate": "experienceEndDate1", "experienceCompany": "experienceCompany1", "experienceCompanyLink": "experienceCompanyLink1",
