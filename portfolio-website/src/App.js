@@ -2,7 +2,9 @@ import React from 'react';
 
 import BackgroundVideo from './animations/animation_backgroundVideo.js';
 
-import Intro from './components/components_intro.js';
+import Intro from './components/component_intro.js';
+
+import Footer from './components/component_footer.js';
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
         {/*<Skills />*/}
         {/*<Projects />*/}
         {/*<About />*/}
-        {/*<Footer />*/}
+        {<Footer />}
       </div>
     </div>
   );

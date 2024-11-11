@@ -34,7 +34,7 @@ function Intro() {
 
     // defining the contact buttons by using the information present in "../variables.json":
     const contacts = [];
-    const contactsClassName = "transform hover:scale-125 transition duration-500 bg-transparent saturate-100 hover:saturate-150 opacity-80 hover:opacity-100 rounded-2xl";
+    const contactsClassName = "transform hover:scale-125 transition duration-500 bg-transparent saturate-100 hover:saturate-150 opacity-80 hover:opacity-100";
     for (let i = 0; i < variableContacts.length; i++) {
         const contact = variableContacts[i];
         const contactLink = contact.contactLink;
