@@ -7,118 +7,173 @@
         {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "https://github.com/ShameIRL"}
     ],
     "experiences": [
-        {"experienceRole": "experience1", "experienceContract": "experienceContract1", "experienceStartDate": "experienceStartDate1", "experienceEndDate": "experienceEndDate1", "experienceCompany": "experienceCompany1", "experienceCompanyLink": "experienceCompanyLink1",
+        {"experienceRole": "Software Developer", "experienceContract": "Thesis Internship", "experienceStartDate": "May 2024", "experienceEndDate": "Jun 2024", "experienceCompany": "Zucchetti", "experienceCompanyLink": "https://www.zucchetti.com/worldwide/cms/home.html",
             "experienceSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "SonarQube", "skillLogo": "logo_github_night.png"},
+                {"skillName": "HuggingFace", "skillLogo": "logo_github_night.png"},
+                {"skillName": "llama.cpp", "skillLogo": "logo_github_night.png"},
+                {"skillName": "LM Studio", "skillLogo": "logo_github_night.png"},
+                {"skillName": "openAI APIs", "skillLogo": "logo_github_night.png"},
+                {"skillName": "JSON", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Visual Studio Code", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Python", "skillLogo": "logo_github_night.png"}
             ],
             "experienceDescriptions": [
-                {"description": "description1", "lastDescription": "false"},
-                {"description": "description2", "lastDescription": "false"},
-                {"description": "description3", "lastDescription": "true"}
+                {"descriptionContent": "Researched small-sized LLMs' capabilities;"},
+                {"descriptionContent": "Adopted Prompt Design and Prompt Engineering;"},
+                {"descriptionContent": "Implemented a LLM-based Practical Solution to assist Static Analysis;"},
+                {"descriptionContent": "Wrote my Thesis."}
             ],
-            "experienceColourLight": "experienceColourLight1", "experienceColourDark": "experienceColourDark1"
+            "experienceColour": "sky", "experienceGradationLight": "600", "experienceGradationDark": "900"
         },
-        {"experienceRole": "experience2", "experienceContract": "experienceContract2", "experienceStartDate": "experienceStartDate2", "experienceEndDate": "experienceEndDate2", "experienceCompany": "experienceCompany2", "experienceCompanyLink": "experienceCompanyLink2",
+        {"experienceRole": "Software Engineer", "experienceContract": "Full-Time Project", "experienceStartDate": "Oct 2023", "experienceEndDate": "Apr 2024", "experienceCompany": "Ergon Informatica", "experienceCompanyLink": "https://www.ergon.it/",
             "experienceSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub Actions", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Ruff", "skillLogo": "logo_github_night.png"},
+                {"skillName": "ESLint", "skillLogo": "logo_github_night.png"},
+                {"skillName": "pytest", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Jest", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Codecov", "skillLogo": "logo_github_night.png"},
+                {"skillName": "UML", "skillLogo": "logo_github_night.png"},
+                {"skillName": "StarUML", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Docker", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Visual Studio Code", "skillLogo": "logo_github_night.png"},
+                {"skillName": "SQL", "skillLogo": "logo_github_night.png"},
+                {"skillName": "MySQL", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Anaconda", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Python", "skillLogo": "logo_github_night.png"},
+                {"skillName": "pandas", "skillLogo": "logo_github_night.png"},
+                {"skillName": "NumPy", "skillLogo": "logo_github_night.png"},
+                {"skillName": "PyTorch", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Flask", "skillLogo": "logo_github_night.png"},
+                {"skillName": "HTML5", "skillLogo": "logo_github_night.png"},
+                {"skillName": "CSS3", "skillLogo": "logo_github_night.png"},
+                {"skillName": "JavaScript", "skillLogo": "logo_github_night.png"},
+                {"skillName": "NodeJS", "skillLogo": "logo_github_night.png"},
+                {"skillName": "npm", "skillLogo": "logo_github_night.png"},
+                {"skillName": "ReactJS", "skillLogo": "logo_github_night.png"},
+                {"skillName": "TailwindCSS", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Axios", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Express", "skillLogo": "logo_github_night.png"},
+                {"skillName": "JSON", "skillLogo": "logo_github_night.png"},
+                {"skillName": "LaTeX", "skillLogo": "logo_github_night.png"},
+                {"skillName": "typst", "skillLogo": "logo_github_night.png"}
             ],
             "experienceDescriptions": [
-                {"description": "description1", "lastDescription": "false"},
-                {"description": "description2", "lastDescription": "false"},
-                {"description": "description3", "lastDescription": "true"}
+                {"descriptionContent": "Closely interacted with Stakeholders;"},
+                {"descriptionContent": "Applied Software Engineering Best Practices;"},
+                {"descriptionContent": "Implemented and Applied DevOps;"},
+                {"descriptionContent": "Produced a Recommender System Web Application based on a developed and trained Neural Network, through RTB & PB phases."}
             ],
-            "experienceColourLight": "experienceColourLight2", "experienceColourDark": "experienceColourDark2"
+            "experienceColour": "green", "experienceGradationLight": "600", "experienceGradationDark": "300"
         },
-        {"experienceRole": "experience3", "experienceContract": "experienceContract3", "experienceStartDate": "experienceStartDate3", "experienceEndDate": "experienceEndDate3", "experienceCompany": "experienceCompany3", "experienceCompanyLink": "experienceCompanyLink3",
+        {"experienceRole": "Software Developer", "experienceContract": "Seasonal Job", "experienceStartDate": "March 2023", "experienceEndDate": "May 2023", "experienceCompany": "Tiesse Informatica", "experienceCompanyLink": "https://www.tiesseinformatica.it/",
             "experienceSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "Microsoft Word", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Microsoft Excel", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Visual Studio Code", "skillLogo": "logo_github_night.png"},
+                {"skillName": ".NET", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Visual Basic", "skillLogo": "logo_github_night.png"},
+                {"skillName": "SQL", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Microsoft SQL Server", "skillLogo": "logo_github_night.png"},
+                {"skillName": "FileZilla", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Python", "skillLogo": "logo_github_night.png"},
+                {"skillName": "pandas", "skillLogo": "logo_github_night.png"}
             ],
             "experienceDescriptions": [
-                {"description": "description1", "lastDescription": "false"},
-                {"description": "description2", "lastDescription": "false"},
-                {"description": "description3", "lastDescription": "true"}
+                {"descriptionContent": "Advised on State of the Art Technologies;"},
+                {"descriptionContent": "Automated Government Platform's Deployment;"},
+                {"descriptionContent": "Improved Government Platform's functionalities and security."}
             ],
-            "experienceColourLight": "experienceColourLight3", "experienceColourDark": "experienceColourDark3"
+            "experienceColour": "orange", "experienceGradationLight": "600", "experienceGradationDark": "900"
         }
     ],
     "educations": [
-        {"educationName": "educationName1", "educationSchool": "educationSchool1", "educationSchoolLink": "educationSchoolLink1", "educationStartDate": "educationStartDate1", "educationEndDate": "educationEndDate1",
+        {"educationName": "Bachelor of Sciences in Computer Science", "educationSchool": "Università degli Studi di Padova", "educationSchoolLink": "https://www.unipd.it/en/", "educationLocation": "University of Padua", "educationStartYear": "2019", "educationEndYear": "2024",
             "educationSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "GCC", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Visual Studio Code", "skillLogo": "logo_github_night.png"},
+                {"skillName": "CPP", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Qt", "skillLogo": "logo_github_night.png"},
+                {"skillName": "SQL", "skillLogo": "logo_github_night.png"},
+                {"skillName": "PostgreSQL", "skillLogo": "logo_github_night.png"},
+                {"skillName": "MySQL", "skillLogo": "logo_github_night.png"},
+                {"skillName": "JSON", "skillLogo": "logo_github_night.png"},
+                {"skillName": "MatLab", "skillLogo": "logo_github_night.png"},
+                {"skillName": "HTML5", "skillLogo": "logo_github_night.png"},
+                {"skillName": "CSS3", "skillLogo": "logo_github_night.png"},
+                {"skillName": "PHP", "skillLogo": "logo_github_night.png"},
+                {"skillName": "JavaScript", "skillLogo": "logo_github_night.png"},
+                {"skillName": "FileZilla", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Jupyter", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Python", "skillLogo": "logo_github_night.png"},
+                {"skillName": "pandas", "skillLogo": "logo_github_night.png"},
+                {"skillName": "NumPy", "skillLogo": "logo_github_night.png"},
+                {"skillName": "TensorFlow", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Wireshark", "skillLogo": "logo_github_night.png"},
+                {"skillName": "IDA Pro", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Microsoft Excel", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "UML", "skillLogo": "logo_github_night.png"},
+                {"skillName": "StarUML", "skillLogo": "logo_github_night.png"}
             ],
-            "educationColourLight": "educationColourLight1", "educationColourDark": "educationColourDark1"
+            "educationColour": "red", "educationGradationLight": "700", "educationGradationDark": "900"
         },
-        {"educationName": "educationName1", "educationSchool": "educationSchool1", "educationSchoolLink": "educationSchoolLink1", "educationStartDate": "educationStartDate1", "educationEndDate": "educationEndDate1",
+        {"educationName": "Scientific High School Diploma, Applied Sciences", "educationSchool": "Liceo Scientifico Enrico Fermi", "educationSchoolLink": "https://www.liceofermipadova.edu.it/", "educationLocation": "di Padova", "educationStartYear": "2014", "educationEndYear": "2019",
             "educationSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "Microsoft Word", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Microsoft Excel", "skillLogo": "logo_github_night.png"},
+                {"skillName": "CPP", "skillLogo": "logo_github_night.png"},
+                {"skillName": "HTML5", "skillLogo": "logo_github_night.png"},
+                {"skillName": "CSS3", "skillLogo": "logo_github_night.png"},
+                {"skillName": "JavaScript", "skillLogo": "logo_github_night.png"},
+                {"skillName": "SQL", "skillLogo": "logo_github_night.png"}
             ],
-            "educationColourLight": "educationColourLight2", "educationColourDark": "educationColourDark2"
-        },
-        {"educationName": "educationName2", "educationSchool": "educationSchool2", "educationSchoolLink": "educationSchoolLink2", "educationStartDate": "educationStartDate2", "educationEndDate": "educationEndDate2",
-            "educationSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
-            ],
-            "educationColourLight": "educationColourLight3", "educationColourDark": "educationColourDark3"
+            "educationColour": "blue", "educationGradationLight": "500", "educationGradationDark": "200"
         }
     ],
     "certificates": [
         {"certificateName": "certificateName1", "certificateLink": "certificateLink1", "certificateType": "certificateType1", "certificateCompany": "certificateCompany1", "certificateCompanyLink": "certificateCompanyLink1", "certificateDate": "certificateDate1",
             "certificateSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
             ],
-            "certificateColourLight": "certificateColourLight1", "certificateColourDark": "certificateColourDark1"
+            "certificateColour": "certificateColour", "certificateGradationLight": "certificateColourLight1", "certificateGradationDark": "certificateColourDark1"
         },
         {"certificateName": "certificateName2", "certificateLink": "certificateLink2", "certificateType": "certificateType2", "certificateCompany": "certificateCompany2", "certificateCompanyLink": "certificateCompanyLink2", "certificateDate": "certificateDate2",
             "certificateSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "skillName1", "skillLogo": "logo_github_night.png"},
+                {"skillName": "skillName2", "skillLogo": "logo_github_night.png"},
+                {"skillName": "skillName3", "skillLogo": "logo_github_night.png"}
             ],
-            "certificateColourLight": "certificateColourLight2", "certificateColourDark": "certificateColourDark2"
+            "certificateColour": "certificateColour", "certificateGradationLight": "certificateColourLight1", "certificateGradationDark": "certificateColourDark1"
         },
         {"certificateName": "certificateName3", "certificateLink": "certificateLink3", "certificateType": "certificateType3", "certificateCompany": "certificateCompany3", "certificateCompanyLink": "certificateCompanyLink3", "certificateDate": "certificateDate3",
             "certificateSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
             ],
-            "certificateColourLight": "certificateColourLight3", "certificateColourDark": "certificateColourDark3"
+            "certificateColour": "certificateColour", "certificateGradationLight": "certificateColourLight1", "certificateGradationDark": "certificateColourDark1"
         }
     ],
     "skillGroups": [
         {"skillGroupName": "skillGroupName1",
             "skillGroupSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "skillName1", "skillLogo": "skillLogo1"},
+                {"skillName": "skillName2", "skillLogo": "skillLogo2"},
+                {"skillName": "skillName3", "skillLogo": "skillLogo3"}
             ]
         },
         {"skillGroupName": "skillGroupName2",
             "skillGroupSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "skillName1", "skillLogo": "skillLogo1"},
+                {"skillName": "skillName2", "skillLogo": "skillLogo2"},
+                {"skillName": "skillName3", "skillLogo": "skillLogo3"}
             ]
         },
         {"skillGroupName": "skillGroupName3",
             "skillGroupSkills": [
-                {"skillName": "skillName1", "skillImage": "skillImage1"},
-                {"skillName": "skillName2", "skillImage": "skillImage2"},
-                {"skillName": "skillName3", "skillImage": "skillImage3"}
+                {"skillName": "skillName1", "skillLogo": "skillLogo1"},
+                {"skillName": "skillName2", "skillLogo": "skillLogo2"},
+                {"skillName": "skillName3", "skillLogo": "skillLogo3"}
             ]
         }
     ]

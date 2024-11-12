@@ -2,7 +2,7 @@ import React from 'react';
 
 import data from '../variables.json';
 
-import Animation_unblur from '../animations/animation_unblur.js';
+import ANIMATION_UNBLUR from '../animations/animation_unblur.js';
 
 function Intro() {
     // obtaining information relevant to this section from the "../variables.json" file:
@@ -21,12 +21,12 @@ function Intro() {
                         <>Feel free to <span className={textLinesBiggerTextClassName}>look around</span> and get to <span className={textLinesBiggerTextClassName}>know me</span>.</>,
                         <>You can <span className={textLinesBiggerTextClassName}>contact me</span> here:</>
                     ];
-    const textLinesClassName = "mx-4 mb-5 flex";
+    const textLineClassName = "mx-4 mb-5 flex";
     for (let i = 0; i < textLines.length; i++) {
         const textLine = textLines[i];
         time = 1250*i;
         introText.push(
-            <p className={textLinesClassName}><Animation_unblur start={time} delay={125}>{textLine}</Animation_unblur></p>
+            <p className={textLineClassName}><ANIMATION_UNBLUR start={time} delay={125}>{textLine}</ANIMATION_UNBLUR></p>
         )
     }
 
@@ -34,7 +34,7 @@ function Intro() {
 
     // defining the contact buttons by using the information present in "../variables.json":
     const contacts = [];
-    const contactsClassName = "transform hover:scale-125 transition duration-500 bg-transparent saturate-100 hover:saturate-150 opacity-80 hover:opacity-100";
+    const contactClassName = "transform hover:scale-125 transition duration-500 bg-transparent saturate-100 hover:saturate-150 opacity-80 hover:opacity-100";
     for (let i = 0; i < variableContacts.length; i++) {
         const contact = variableContacts[i];
         const contactLink = contact.contactLink;
@@ -42,7 +42,7 @@ function Intro() {
         const contactLogo = require(`../assets/${contact.contactLogo}`);
         time += 500;
         contacts.push(
-            <Animation_unblur start={time} delay={50}><button className={contactsClassName}><a href={contactLink} target="_blank"><img src={contactLogo} alt={contactName} title={contactName} type="image/png" width="48" height="48" /></a></button></Animation_unblur>
+            <ANIMATION_UNBLUR start={time} delay={50}><button className={contactClassName}><a href={contactLink} target="_blank" rel="noreferrer"><img src={contactLogo} alt={contactName} title={contactName} type="image/png" width="48" height="48" /></a></button></ANIMATION_UNBLUR>
         )
     }
 
