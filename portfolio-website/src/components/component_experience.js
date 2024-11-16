@@ -8,7 +8,7 @@ function Experience() {
     // obtaining information relevant to this section from the "../variables.json" file:
     const variableExperiences = data.experiences;
     const variableEducations = data.educations;
-    const variableCertifications = data.certificates;
+    const variableCertificates = data.certificates;
 
     const sectionClassName = "text-left";
     const transitionOutClassName = "transform hover:scale-95 duration-500";
@@ -18,7 +18,7 @@ function Experience() {
     const datesDesktopClassName = "hidden sm:contents md:contents";
     const datesMobileClassName = "text-xl contents sm:hidden md:hidden";
     const companyClassName = "text-3xl " + transitionInRightClassName;
-    const shoolClassName = "text-xl " + transitionInRightClassName;
+    const schoolClassName = "text-xl " + transitionInRightClassName;
     const skillsClassName = "my-4 grid";
     const skillClassName = "" + transitionInClassName;
 
@@ -133,7 +133,7 @@ function Experience() {
         educations.push(
             <div id={educationStartYear+" "+educationName+" "+educationSchool} className={sectionClassName}>
                 <h1 className={educationNameClassName}>{educationName}</h1>
-                <p className={shoolClassName}>@<a href={educationSchoolLink} target="_blank" rel="noreferrer" className={schoolLinkClassName}>{educationSchool}</a></p>
+                <p className={schoolClassName}>@<a href={educationSchoolLink} target="_blank" rel="noreferrer" className={schoolLinkClassName}>{educationSchool}</a></p>
                 <p className={detailsLRClassName}><span className={locationClassName}>{educationLocation}</span><span className={datesDesktopClassName}>{educationStartYear} - {educationEndYear}</span></p>
                     <p className={datesMobileClassName}>{educationStartYear} - {educationEndYear}</p>
                 <div className={skillsClassName} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(36px, 1fr))', gap: '1rem' }}>
@@ -151,8 +151,8 @@ function Experience() {
 
     // defining the certificates by using the information present in "../variables.json":
     const certificates = [];
-    for (let i = 0; i < variableCertifications.length; i++) {
-        const certificate = variableCertifications[i];
+    for (let i = 0; i < variableCertificates.length; i++) {
+        const certificate = variableCertificates[i];
         const certificateColour = certificate.certificateColour;
         const certificateGradationLight = certificate.certificateGradationLight;
         const certificateGradationDark = certificate.certificateGradationDark;
@@ -181,12 +181,44 @@ function Experience() {
         }
 
         const certificateNameClassName = "text-3xl " + colourClassName + " " + transitionOutClassName;
+        const certificateNameLinkClassName = "text-3xl " + colourClassName + " " + transitionInRightClassName;
+        const certificateTypeClassName = "" + transitionOutClassName;
+        const schoolLinkClassName = "" + colourClassName + " " + colourLinkClassName;
 
-        certificates.push(
-            <div id={certificateCompany+" "+certificateDate+" "+certificateName} className={sectionClassName}>
+        let certificateNameHTML = "";
+        if (certificateLink == "_") 
+            certificateNameHTML = <h1 className={certificateNameClassName}>{certificateName}</h1>;
+        else
+            certificateNameHTML = <h1 className={certificateNameLinkClassName}><a href={certificateLink} target="_blank" rel="noreferrer" className={schoolLinkClassName}>{certificateName}</a></h1>;
 
-            </div>
-        )
+        if (!skills[0]) {
+            certificates.push(
+                <div id={certificateCompany+" "+certificateDate+" "+certificateName} className={sectionClassName}>
+                    {certificateNameHTML}
+                    <p className={certificateTypeClassName}>{certificateType}</p>
+                    <p className={detailsLRClassName}><span className={schoolClassName}>@<a href={certificateCompanyLink} target="_blank" rel="noreferrer" className={schoolLinkClassName}>{certificateCompany}</a></span><span className={datesDesktopClassName}>{certificateDate}</span><span className={datesMobileClassName}>{certificateDate}</span></p>
+                </div>
+            )
+        }
+
+        else {
+            certificates.push(
+                <div id={certificateCompany+" "+certificateDate+" "+certificateName} className={sectionClassName}>
+                    {certificateNameHTML}
+                    <p className={certificateTypeClassName}>{certificateType}</p>
+                    <p className={detailsLRClassName}><span className={schoolClassName}>@<a href={certificateCompanyLink} target="_blank" rel="noreferrer" className={schoolLinkClassName}>{certificateCompany}</a></span><span className={datesDesktopClassName}>{certificateDate}</span><span className={datesMobileClassName}>{certificateDate}</span></p>
+                    <div className={skillsClassName} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(36px, 1fr))', gap: '1rem' }}>
+                        {skills}
+                    </div>
+                </div>
+            )
+        }
+
+        if (i < variableCertificates.length-1) {
+            certificates.push(
+                <hr className="border-gray-300 my-8 mx-auto w-full max-w-2xl" />
+            )
+        }
     }
 
     const timelineClassName = "backdrop-blur-sm bg-black/80 rounded-3xl px-10 py-7 sm:px-14 sm:py-10 md:px-14 md:py-10";
@@ -195,6 +227,7 @@ function Experience() {
     // assembling the experiences, the educations and the certificates
     return (
         <div id="experience" className="grid gap-4 items-start justify-center h-content font-semibold subpixel-antialiased mb-16 min-w-ld max-w-6xl mx-4 sm:mx-4 md:mx-auto">
+
             <div id="experienceTitle" className="mt-32 backdrop-blur-sm bg-black/70 rounded-3xl px-6 pt-4 pb-5 mx-auto">
                 <p className="text-center text-3xl sm:text-4xl transition hover:scale-95 duration-500">Experience & Education:</p>
             </div>
@@ -207,30 +240,7 @@ function Experience() {
                         {educations}
                     </div>
                     <div id="certificatesTimeline" className={timelineClassName}>
-                        <div id="Zucchetti1" className="text-left">
-                            <h1 className="text-3xl transform hover:scale-90 duration-700 bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-sky-900">Health and Safety in the Workplace, Low Risk Level</h1>
-                            <p className="transition hover:scale-90 duration-500">CERTIFICATE OF ATTENDANCE</p>
-                            <p className="flex justify-between text-xl"><span className="transform hover:origin-left hover:scale-125 duration-700">@<a href="https://www.zucchetti.com/" target="_blank" rel="noreferrer" className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-sky-900 hover:from-sky-400 hover:to-sky-700">Zucchetti</a></span><span>May 2023</span></p>
-                        </div>
-                        <hr className="border-gray-300 my-8 mx-auto w-full max-w-2xl" />
-                        <div id="Udemy1" className="text-left">
-                            <h1 className="text-3xl transform hover:origin-left hover:scale-110 duration-700 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-800 hover:from-violet-500 hover:to-violet-700"><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-ce2697ba-7b39-4828-9f07-9a21202affcd.jpg?v=1698341762000" target="_blank" rel="noreferrer">Artificial Intelligence A-Z</a></h1>
-                            <p className="transition hover:scale-90 duration-500">CERTIFICATE OF COMPLETION</p>
-                            <p className="flex justify-between text-xl"><span className="transform hover:origin-left hover:scale-125 duration-700">@<a href="https://www.udemy.com/" target="_blank" rel="noreferrer" className="bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-800 hover:from-violet-500 hover:to-violet-700">Udemy</a></span><span>October 2023</span></p>
-                            <div className="mt-4 grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(36px, 1fr))', gap: '1rem' }}>
-                                <img className="transition hover:scale-125 duration-500" src={Asset_Icon_GitHub} alt="Anaconda" title="Anaconda" style={{ width: "36px", height: "36px", objectFit: "contain" }}  />
-                                <img className="transition hover:scale-125 duration-500" src={Asset_Icon_GitHub} alt="Jupyter" title="Jupyter" style={{ width: "36px", height: "36px", objectFit: "contain" }}  />
-                                <img className="transition hover:scale-125 duration-500" src={Asset_Icon_GitHub} alt="Python" title="Python" style={{ width: "36px", height: "36px", objectFit: "contain" }}  />
-                                <img className="transition hover:scale-125 duration-500" src={Asset_Icon_GitHub} alt="NumPy" title="NumPy" style={{ width: "36px", height: "36px", objectFit: "contain" }}  />
-                                <img className="transition hover:scale-125 duration-500" src={Asset_Icon_GitHub} alt="PyTorch" title="PyTorch" style={{ width: "36px", height: "36px", objectFit: "contain" }}  />
-                            </div>
-                        </div>
-                        <hr className="border-gray-300 my-8 mx-auto w-full max-w-2xl" />
-                        <div id="Tiesse1" className="text-left">
-                            <h1 className="text-3xl transform hover:scale-90 duration-700 bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-900">Data Protection and Information Security</h1>
-                            <p className="transition hover:scale-90 duration-500">CERTIFICATE OF ATTENDANCE</p>
-                            <p className="flex justify-between text-xl"><span className="transform hover:origin-left hover:scale-125 duration-700">@<a href="https://www.tiesseinformatica.it/" target="_blank" rel="noreferrer" className="bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-900 hover:from-orange-500 hover:to-orange-700">Tiesse Informatica</a></span><span>April 2023</span></p>
-                        </div>
+                        {certificates}
                     </div>
                 </div>
             </div>

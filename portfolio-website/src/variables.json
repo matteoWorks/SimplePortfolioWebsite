@@ -67,7 +67,7 @@
                 {"descriptionContent": "Implemented and Applied DevOps;"},
                 {"descriptionContent": "Produced a Recommender System Web Application based on a developed and trained Neural Network, through RTB & PB phases."}
             ],
-            "experienceColour": "green", "experienceGradationLight": "600", "experienceGradationDark": "300"
+            "experienceColour": "green", "experienceGradationLight": "500", "experienceGradationDark": "800"
         },
         {"experienceRole": "Software Developer", "experienceContract": "Seasonal Job", "experienceStartDate": "March 2023", "experienceEndDate": "May 2023", "experienceCompany": "Tiesse Informatica", "experienceCompanyLink": "https://www.tiesseinformatica.it/",
             "experienceSkills": [
@@ -131,27 +131,29 @@
                 {"skillName": "JavaScript", "skillLogo": "logo_github_night.png"},
                 {"skillName": "SQL", "skillLogo": "logo_github_night.png"}
             ],
-            "educationColour": "blue", "educationGradationLight": "500", "educationGradationDark": "200"
+            "educationColour": "blue", "educationGradationLight": "500", "educationGradationDark": "400"
         }
     ],
     "certificates": [
-        {"certificateName": "certificateName1", "certificateLink": "certificateLink1", "certificateType": "certificateType1", "certificateCompany": "certificateCompany1", "certificateCompanyLink": "certificateCompanyLink1", "certificateDate": "certificateDate1",
+        {"certificateName": "Health and Safety in the Workplace, Low Risk Level", "certificateLink": "_", "certificateType": "CERTIFICATE OF ATTENDANCE", "certificateCompany": "Zucchetti", "certificateCompanyLink": "https://www.zucchetti.com/worldwide/cms/home.html", "certificateDate": "May 2023",
             "certificateSkills": [
             ],
-            "certificateColour": "certificateColour", "certificateGradationLight": "certificateColourLight1", "certificateGradationDark": "certificateColourDark1"
+            "certificateColour": "sky", "certificateGradationLight": "600", "certificateGradationDark": "900"
         },
-        {"certificateName": "certificateName2", "certificateLink": "certificateLink2", "certificateType": "certificateType2", "certificateCompany": "certificateCompany2", "certificateCompanyLink": "certificateCompanyLink2", "certificateDate": "certificateDate2",
+        {"certificateName": "Artificial Intelligence A-Z", "certificateLink": "https://udemy-certificate.s3.amazonaws.com/image/UC-ce2697ba-7b39-4828-9f07-9a21202affcd.jpg?v=1698341762000", "certificateType": "CERTIFICATE OF COMPLETION", "certificateCompany": "Udemy", "certificateCompanyLink": "https://www.udemy.com/", "certificateDate": "October 2023",
             "certificateSkills": [
-                {"skillName": "skillName1", "skillLogo": "logo_github_night.png"},
-                {"skillName": "skillName2", "skillLogo": "logo_github_night.png"},
-                {"skillName": "skillName3", "skillLogo": "logo_github_night.png"}
+                {"skillName": "Anaconda", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Jupyter", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Python", "skillLogo": "logo_github_night.png"},
+                {"skillName": "NumPy", "skillLogo": "logo_github_night.png"},
+                {"skillName": "PyTorch", "skillLogo": "logo_github_night.png"}
             ],
-            "certificateColour": "certificateColour", "certificateGradationLight": "certificateColourLight1", "certificateGradationDark": "certificateColourDark1"
+            "certificateColour": "violet", "certificateGradationLight": "600", "certificateGradationDark": "800"
         },
-        {"certificateName": "certificateName3", "certificateLink": "certificateLink3", "certificateType": "certificateType3", "certificateCompany": "certificateCompany3", "certificateCompanyLink": "certificateCompanyLink3", "certificateDate": "certificateDate3",
+        {"certificateName": "Data Protection and Information Security", "certificateLink": "_", "certificateType": "CERTIFICATE OF ATTENDANCE", "certificateCompany": "Tiesse Informatica", "certificateCompanyLink": "https://www.tiesseinformatica.it/", "certificateDate": "April 2023",
             "certificateSkills": [
             ],
-            "certificateColour": "certificateColour", "certificateGradationLight": "certificateColourLight1", "certificateGradationDark": "certificateColourDark1"
+            "certificateColour": "orange", "certificateGradationLight": "600", "certificateGradationDark": "900"
         }
     ],
     "skillGroups": [
