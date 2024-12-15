@@ -27,8 +27,8 @@ function Experience() {
     for (let i = 0; i < variableExperiences.length; i++) {
         const experience = variableExperiences[i];
         const experienceColour = experience.experienceColour;
-        const experienceGradationLight = experience.experienceGradationLight;
-        const experienceGradationDark = experience.experienceGradationDark;
+        const experienceGradationLeft = experience.experienceGradationLeft;
+        const experienceGradationRight = experience.experienceGradationRight;
         const experienceRole = experience.experienceRole;
         const experienceContract = experience.experienceContract;
         const experienceStartDate = experience.experienceStartDate;
@@ -38,10 +38,10 @@ function Experience() {
         const experienceSkills = experience.experienceSkills;
         const experienceDescriptions = experience.experienceDescriptions;
 
-        const colourClassName = "bg-clip-text text-transparent bg-gradient-to-r from-" + experienceColour + "-" + experienceGradationLight + " to-" + experienceColour + "-" + experienceGradationDark;
-        const experienceGradationLightLink = experienceGradationLight - 200;
-        const experienceGradationDarkLink = experienceGradationDark - 200;
-        const colourLinkClassName = "hover:from-" + experienceColour + "-" + experienceGradationLightLink + " hover:to-" + experienceColour + "-" + experienceGradationDarkLink;
+        const colourClassName = "bg-clip-text text-transparent bg-gradient-to-r from-" + experienceColour + "-" + experienceGradationLeft + " to-" + experienceColour + "-" + experienceGradationRight;
+        const experienceGradationLeftLink = experienceGradationLeft - 200;
+        const experienceGradationRightLink = experienceGradationRight - 200;
+        const colourLinkClassName = "hover:from-" + experienceColour + "-" + experienceGradationLeftLink + " hover:to-" + experienceColour + "-" + experienceGradationRightLink;
 
         // defining the working experience's skills by using the information present in "../variables.json":
         const skills = [];
@@ -100,8 +100,8 @@ function Experience() {
     for (let i = 0; i < variableEducations.length; i++) {
         const education = variableEducations[i];
         const educationColour = education.educationColour;
-        const educationGradationLight = education.educationGradationLight;
-        const educationGradationDark = education.educationGradationDark;
+        const educationGradationLeft = education.educationGradationLeft;
+        const educationGradationRight = education.educationGradationRight;
         const educationName = education.educationName;
         const educationSchool = education.educationSchool;
         const educationSchoolLink = education.educationSchoolLink;
@@ -110,10 +110,10 @@ function Experience() {
         const educationEndYear = education.educationEndYear;
         const educationSkills = education.educationSkills;
         
-        const colourClassName = "bg-clip-text text-transparent bg-gradient-to-r from-" + educationColour + "-" + educationGradationLight + " to-" + educationColour + "-" + educationGradationDark;
-        const educationGradationLightLink = educationGradationLight - 200;
-        const educationGradationDarkLink = educationGradationDark - 200;
-        const colourLinkClassName = "hover:from-" + educationColour + "-" + educationGradationLightLink + " hover:to-" + educationColour + "-" + educationGradationDarkLink;
+        const colourClassName = "bg-clip-text text-transparent bg-gradient-to-r from-" + educationColour + "-" + educationGradationLeft + " to-" + educationColour + "-" + educationGradationRight;
+        const educationGradationLeftLink = educationGradationLeft - 200;
+        const educationGradationRightLink = educationGradationRight - 200;
+        const colourLinkClassName = "hover:from-" + educationColour + "-" + educationGradationLeftLink + " hover:to-" + educationColour + "-" + educationGradationRightLink;
 
         // defining the educations's skills by using the information present in "../variables.json":
         const skills = [];
@@ -154,8 +154,8 @@ function Experience() {
     for (let i = 0; i < variableCertificates.length; i++) {
         const certificate = variableCertificates[i];
         const certificateColour = certificate.certificateColour;
-        const certificateGradationLight = certificate.certificateGradationLight;
-        const certificateGradationDark = certificate.certificateGradationDark;
+        const certificateGradationLeft = certificate.certificateGradationLeft;
+        const certificateGradationRight = certificate.certificateGradationRight;
         const certificateName = certificate.certificateName;
         const certificateLink = certificate.certificateLink;
         const certificateType = certificate.certificateType;
@@ -164,10 +164,10 @@ function Experience() {
         const certificateDate = certificate.certificateDate;
         const certificateSkills = certificate.certificateSkills;
 
-        const colourClassName = "bg-clip-text text-transparent bg-gradient-to-r from-" + certificateColour + "-" + certificateGradationLight + " to-" + certificateColour + "-" + certificateGradationDark;
-        const certificateGradationLightLink = certificateGradationLight - 200;
-        const certificateGradationDarkLink = certificateGradationDark - 200;
-        const colourLinkClassName = "hover:from-" + certificateColour + "-" + certificateGradationLightLink + " hover:to-" + certificateColour + "-" + certificateGradationDarkLink;
+        const colourClassName = "bg-clip-text text-transparent bg-gradient-to-r from-" + certificateColour + "-" + certificateGradationLeft + " to-" + certificateColour + "-" + certificateGradationRight;
+        const certificateGradationLeftLink = certificateGradationLeft - 200;
+        const certificateGradationRightLink = certificateGradationRight - 200;
+        const colourLinkClassName = "hover:from-" + certificateColour + "-" + certificateGradationLeftLink + " hover:to-" + certificateColour + "-" + certificateGradationRightLink;
 
         // defining the certificate's skills by using the information present in "../variables.json":
         const skills = [];

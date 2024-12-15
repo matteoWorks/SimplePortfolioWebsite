@@ -16,7 +16,7 @@ function Intro() {
     // defining the animated text of this section by building and assembling each lines that composes it:
     const introText = [];
     const textLinesBiggerTextClassName = "text-3xl sm:text-5xl md:text-5xl";
-    const textLines = [<>Hello I'm <span className={textLinesBiggerTextClassName}>{variableName}</span>.</>,        // FEEL FREE TO EDIT BASED ON YOUR PREFERENCES
+    const textLines = [<>Hello, I'm <span className={textLinesBiggerTextClassName}>{variableName}</span>.</>,        // FEEL FREE TO EDIT BASED ON YOUR PREFERENCES
                         <>I'm a <span className={textLinesBiggerTextClassName}>{variableOccupation}</span>.</>,
                         <>Feel free to <span className={textLinesBiggerTextClassName}>look around</span> and get to <span className={textLinesBiggerTextClassName}>know me</span>.</>,
                         <>You can <span className={textLinesBiggerTextClassName}>contact me</span> here:</>

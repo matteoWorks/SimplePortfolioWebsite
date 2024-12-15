@@ -25,7 +25,7 @@
                 {"descriptionContent": "Implemented a LLM-based Practical Solution to assist Static Analysis;"},
                 {"descriptionContent": "Wrote my Thesis."}
             ],
-            "experienceColour": "sky", "experienceGradationLight": "600", "experienceGradationDark": "900"
+            "experienceColour": "sky", "experienceGradationLeft": "600", "experienceGradationRight": "900"
         },
         {"experienceRole": "Software Engineer", "experienceContract": "Full-Time Project", "experienceStartDate": "Oct 2023", "experienceEndDate": "Apr 2024", "experienceCompany": "Ergon Informatica", "experienceCompanyLink": "https://www.ergon.it/",
             "experienceSkills": [
@@ -67,9 +67,9 @@
                 {"descriptionContent": "Implemented and Applied DevOps;"},
                 {"descriptionContent": "Produced a Recommender System Web Application based on a developed and trained Neural Network, through RTB & PB phases."}
             ],
-            "experienceColour": "green", "experienceGradationLight": "500", "experienceGradationDark": "800"
+            "experienceColour": "green", "experienceGradationLeft": "500", "experienceGradationRight": "800"
         },
-        {"experienceRole": "Software Developer", "experienceContract": "Seasonal Job", "experienceStartDate": "March 2023", "experienceEndDate": "May 2023", "experienceCompany": "Tiesse Informatica", "experienceCompanyLink": "https://www.tiesseinformatica.it/",
+        {"experienceRole": "Software Developer", "experienceContract": "Seasonal Job", "experienceStartDate": "Mar 2023", "experienceEndDate": "May 2023", "experienceCompany": "Tiesse Informatica", "experienceCompanyLink": "https://www.tiesseinformatica.it/",
             "experienceSkills": [
                 {"skillName": "Microsoft Word", "skillLogo": "logo_microsoftword.png"},
                 {"skillName": "Microsoft Excel", "skillLogo": "logo_microsoftexcel.png"},
@@ -87,11 +87,11 @@
                 {"descriptionContent": "Automated Government Platform's Deployment;"},
                 {"descriptionContent": "Improved Government Platform's functionalities and security."}
             ],
-            "experienceColour": "orange", "experienceGradationLight": "600", "experienceGradationDark": "900"
+            "experienceColour": "orange", "experienceGradationLeft": "600", "experienceGradationRight": "900"
         }
     ],
     "educations": [
-        {"educationName": "Bachelor of Sciences in Computer Science", "educationSchool": "Università degli Studi di Padova", "educationSchoolLink": "https://www.unipd.it/en/", "educationLocation": "University of Padua", "educationStartYear": "2019", "educationEndYear": "2024",
+        {"educationName": "Bachelor of Sciences in Computer Science", "educationSchool": "Università degli Studi di Padova", "educationSchoolLink": "https://www.unipd.it/en/", "educationLocation": "University of Padua", "educationStartYear": "Sep 2019", "educationEndYear": "Sep 2024",
             "educationSkills": [
                 {"skillName": "GCC", "skillLogo": "logo_gcc.png"},
                 {"skillName": "Visual Studio Code", "skillLogo": "logo_visualstudiocode.png"},
@@ -119,9 +119,9 @@
                 {"skillName": "UML", "skillLogo": "logo_uml.png"},
                 {"skillName": "StarUML", "skillLogo": "logo_staruml.png"}
             ],
-            "educationColour": "red", "educationGradationLight": "700", "educationGradationDark": "900"
+            "educationColour": "red", "educationGradationLeft": "700", "educationGradationRight": "900"
         },
-        {"educationName": "Scientific High School Diploma, Applied Sciences", "educationSchool": "Liceo Scientifico Enrico Fermi", "educationSchoolLink": "https://www.liceofermipadova.edu.it/", "educationLocation": "di Padova", "educationStartYear": "2014", "educationEndYear": "2019",
+        {"educationName": "Scientific High School Diploma, Applied Sciences", "educationSchool": "Liceo Scientifico Enrico Fermi", "educationSchoolLink": "https://www.liceofermipadova.edu.it/", "educationLocation": "di Padova", "educationStartYear": "Sep 2014", "educationEndYear": "Sep 2019",
             "educationSkills": [
                 {"skillName": "Microsoft Word", "skillLogo": "logo_microsoftword.png"},
                 {"skillName": "Microsoft Excel", "skillLogo": "logo_microsoftexcel.png"},
@@ -131,14 +131,14 @@
                 {"skillName": "JavaScript", "skillLogo": "logo_javascript.png"},
                 {"skillName": "SQL", "skillLogo": "logo_sql.png"}
             ],
-            "educationColour": "blue", "educationGradationLight": "500", "educationGradationDark": "400"
+            "educationColour": "blue", "educationGradationLeft": "500", "educationGradationRight": "400"
         }
     ],
     "certificates": [
         {"certificateName": "Health and Safety in the Workplace, Low Risk Level", "certificateLink": "_", "certificateType": "CERTIFICATE OF ATTENDANCE", "certificateCompany": "Zucchetti", "certificateCompanyLink": "https://www.zucchetti.com/worldwide/cms/home.html", "certificateDate": "May 2023",
             "certificateSkills": [
             ],
-            "certificateColour": "sky", "certificateGradationLight": "600", "certificateGradationDark": "900"
+            "certificateColour": "sky", "certificateGradationLeft": "600", "certificateGradationRight": "900"
         },
         {"certificateName": "Artificial Intelligence A-Z", "certificateLink": "https://udemy-certificate.s3.amazonaws.com/image/UC-ce2697ba-7b39-4828-9f07-9a21202affcd.jpg?v=1698341762000", "certificateType": "CERTIFICATE OF COMPLETION", "certificateCompany": "Udemy", "certificateCompanyLink": "https://www.udemy.com/", "certificateDate": "October 2023",
             "certificateSkills": [
@@ -148,12 +148,12 @@
                 {"skillName": "NumPy", "skillLogo": "logo_python_numpy.png"},
                 {"skillName": "PyTorch", "skillLogo": "logo_python_pytorch.png"}
             ],
-            "certificateColour": "violet", "certificateGradationLight": "600", "certificateGradationDark": "800"
+            "certificateColour": "violet", "certificateGradationLeft": "600", "certificateGradationRight": "800"
         },
         {"certificateName": "Data Protection and Information Security", "certificateLink": "_", "certificateType": "CERTIFICATE OF ATTENDANCE", "certificateCompany": "Tiesse Informatica", "certificateCompanyLink": "https://www.tiesseinformatica.it/", "certificateDate": "April 2023",
             "certificateSkills": [
             ],
-            "certificateColour": "orange", "certificateGradationLight": "600", "certificateGradationDark": "900"
+            "certificateColour": "orange", "certificateGradationLeft": "600", "certificateGradationRight": "900"
         }
     ],
     "skillGroups": [
