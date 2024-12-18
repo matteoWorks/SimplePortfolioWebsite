@@ -64,7 +64,7 @@ function Skills() {
     }
 
     return (
-        <div id="skills" className="grid gap-4 items-start h-content font-semibold subpixel-antialiased mb-16 min-w-ld max-w-6xl mx-4 sm:mx-4 md:mx-auto">
+        <div id="skills" className="grid gap-4 items-start h-content font-semibold subpixel-antialiased min-w-ld max-w-6xl mx-4 sm:mx-4 md:mx-auto">
 
             <div id="skillTitle" className="mt-32 backdrop-blur-sm bg-black/70 rounded-3xl px-6 pt-4 pb-5 mx-auto">
                 <p className="text-center text-3xl sm:text-4xl transition hover:scale-95 duration-500">Industry Skills:</p>

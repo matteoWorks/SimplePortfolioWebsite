@@ -2,6 +2,7 @@ import React from 'react';
 
 import BackgroundVideo from './animations/animation_backgroundVideo.js';
 
+import Navbar from './components/component_navbar.js';
 import Intro from './components/component_intro.js';
 import Experience from './components/component_experience.js';
 import Skills from './components/component_skills.js';
@@ -13,7 +14,7 @@ function App() {
     <div className="App relative text-gray-200">
       <BackgroundVideo />
       <div className="relative z-10">
-        {/*<Navbar />*/}
+        {<Navbar />}
         {<Intro />}
         {<Experience />}
         {<Skills />}

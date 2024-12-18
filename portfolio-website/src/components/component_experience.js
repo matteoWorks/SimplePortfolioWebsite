@@ -184,7 +184,7 @@ function Experience() {
         const schoolLinkClassName = "" + colourClassName + " " + colourLinkClassName;
 
         let certificateNameHTML = "";
-        if (certificateLink == "_") 
+        if (certificateLink === "_")
             certificateNameHTML = <h1 className={certificateNameClassName}>{certificateName}</h1>;
         else
             certificateNameHTML = <h1 className={certificateNameLinkClassName}><a href={certificateLink} target="_blank" rel="noreferrer" className={schoolLinkClassName}>{certificateName}</a></h1>;
@@ -224,7 +224,7 @@ function Experience() {
 
     // assembling the experiences, the educations and the certificates
     return (
-        <div id="experience" className="grid gap-4 items-start justify-center h-content font-semibold subpixel-antialiased mb-16 min-w-ld max-w-6xl mx-4 sm:mx-4 md:mx-auto">
+        <div id="experience" className="grid gap-4 items-start justify-center h-content font-semibold subpixel-antialiased min-w-ld max-w-6xl mx-4 sm:mx-4 md:mx-auto">
 
             <div id="experienceTitle" className="mt-32 backdrop-blur-sm bg-black/70 rounded-3xl px-6 pt-4 pb-5 mx-auto">
                 <p className="text-center text-3xl sm:text-4xl transition hover:scale-95 duration-500">Experience & Education:</p>
