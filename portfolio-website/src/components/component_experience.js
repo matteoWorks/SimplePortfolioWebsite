@@ -2,8 +2,6 @@ import React from 'react';
 
 import data from '../variables.json';
 
-import Asset_Icon_GitHub from '../assets/logo_github_night.png';
-
 function Experience() {
     // obtaining information relevant to this section from the "../variables.json" file:
     const variableExperiences = data.experiences;
@@ -45,8 +43,8 @@ function Experience() {
 
         // defining the working experience's skills by using the information present in "../variables.json":
         const skills = [];
-        for (let i = 0; i < experienceSkills.length; i++) {
-            const skill = experienceSkills[i];
+        for (let j = 0; j < experienceSkills.length; j++) {
+            const skill = experienceSkills[j];
             const skillName = skill.skillName;
             const skillLogo = require(`../assets/${skill.skillLogo}`);
             skills.push(
@@ -57,8 +55,8 @@ function Experience() {
         // defining the working experience's description by using the information present in "../variables.json":
         const descriptions = [];
         const descriptionClassName = "" + transitionOutClassName;
-        for (let i = 0; i < experienceDescriptions.length; i++) {
-            const description = experienceDescriptions[i];
+        for (let j = 0; j < experienceDescriptions.length; j++) {
+            const description = experienceDescriptions[j];
             const descriptionContent = description.descriptionContent;
             descriptions.push(
                 <li className={descriptionClassName}>{descriptionContent}</li>
@@ -117,8 +115,8 @@ function Experience() {
 
         // defining the educations's skills by using the information present in "../variables.json":
         const skills = [];
-        for (let i = 0; i < educationSkills.length; i++) {
-            const skill = educationSkills[i];
+        for (let j = 0; j < educationSkills.length; j++) {
+            const skill = educationSkills[j];
             const skillName = skill.skillName;
             const skillLogo = require(`../assets/${skill.skillLogo}`);
             skills.push(
@@ -171,8 +169,8 @@ function Experience() {
 
         // defining the certificate's skills by using the information present in "../variables.json":
         const skills = [];
-        for (let i = 0; i < certificateSkills.length; i++) {
-            const skill = certificateSkills[i];
+        for (let j = 0; j < certificateSkills.length; j++) {
+            const skill = certificateSkills[j];
             const skillName = skill.skillName;
             const skillLogo = require(`../assets/${skill.skillLogo}`);
             skills.push(
@@ -221,7 +219,7 @@ function Experience() {
         }
     }
 
-    const timelineClassName = "backdrop-blur-sm bg-black/80 rounded-3xl px-10 py-7 sm:px-14 sm:py-10 md:px-14 md:py-10";
+    const timelineClassName = "backdrop-blur-sm bg-black/80 rounded-3xl px-8 py-7 sm:px-14 sm:py-10 md:px-14 md:py-10";
     const experienceTimelineClassName = "order-1" + timelineClassName;
 
     // assembling the experiences, the educations and the certificates
@@ -231,6 +229,7 @@ function Experience() {
             <div id="experienceTitle" className="mt-32 backdrop-blur-sm bg-black/70 rounded-3xl px-6 pt-4 pb-5 mx-auto">
                 <p className="text-center text-3xl sm:text-4xl transition hover:scale-95 duration-500">Experience & Education:</p>
             </div>
+
             <div id="experienceTable" className="grid grid-cols-1 md:grid-cols-2 gap-4 items-start justify-center h-content font-semibold subpixel-antialiased max-w-5xl sm:mx-4 md:mx-auto">
                 <div id="experienceTimeline" className={experienceTimelineClassName}>
                     {experiences}
@@ -244,6 +243,7 @@ function Experience() {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

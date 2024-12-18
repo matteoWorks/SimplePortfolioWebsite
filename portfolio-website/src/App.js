@@ -4,6 +4,7 @@ import BackgroundVideo from './animations/animation_backgroundVideo.js';
 
 import Intro from './components/component_intro.js';
 import Experience from './components/component_experience.js';
+import Skills from './components/component_skills.js';
 
 import Footer from './components/component_footer.js';
 
@@ -15,9 +16,8 @@ function App() {
         {/*<Navbar />*/}
         {<Intro />}
         {<Experience />}
-        {/*<Skills />*/}
+        {<Skills />}
         {/*<Projects />*/}
-        {/*<About />*/}
         {<Footer />}
       </div>
     </div>

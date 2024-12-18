@@ -157,26 +157,63 @@
         }
     ],
     "skillGroups": [
-        {"skillGroupName": "skillGroupName1",
+        {"skillGroupName": "Languages",
             "skillGroupSkills": [
-                {"skillName": "skillName1", "skillLogo": "skillLogo1"},
-                {"skillName": "skillName2", "skillLogo": "skillLogo2"},
-                {"skillName": "skillName3", "skillLogo": "skillLogo3"}
-            ]
+                {"skillName": "CPP", "skillLogo": "logo_cpp.png"},
+                {"skillName": "Python", "skillLogo": "logo_python.png"},
+                {"skillName": "JavaScript", "skillLogo": "logo_javascript.png"},
+                {"skillName": "HTML5", "skillLogo": "logo_html5.png"},
+                {"skillName": "CSS3", "skillLogo": "logo_css3.png"},
+                {"skillName": "Visual Basic", "skillLogo": "logo_visualbasic.png"}
+            ],
+            "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
         },
-        {"skillGroupName": "skillGroupName2",
+        {"skillGroupName": "Libraries & Frameworks",
             "skillGroupSkills": [
-                {"skillName": "skillName1", "skillLogo": "skillLogo1"},
-                {"skillName": "skillName2", "skillLogo": "skillLogo2"},
-                {"skillName": "skillName3", "skillLogo": "skillLogo3"}
-            ]
+                {"skillName": "Qt", "skillLogo": "logo_qt.png"},
+                {"skillName": "pandas", "skillLogo": "logo_python_pandas.png"},
+                {"skillName": "PyTorch", "skillLogo": "logo_python_pytorch.png"},
+                {"skillName": "llama.cpp", "skillLogo": "logo_llamacpp.png"},
+                {"skillName": "ReactJS", "skillLogo": "logo_reactjs.png"},
+                {"skillName": "TailwindCSS", "skillLogo": "logo_tailwindcss.png"}
+            ],
+            "skillGroupColour": "orange", "skillGroupGradationLeft": "700", "skillGroupGradationRight": "500"
         },
-        {"skillGroupName": "skillGroupName3",
+        {"skillGroupName": "Tools",
             "skillGroupSkills": [
-                {"skillName": "skillName1", "skillLogo": "skillLogo1"},
-                {"skillName": "skillName2", "skillLogo": "skillLogo2"},
-                {"skillName": "skillName3", "skillLogo": "skillLogo3"}
-            ]
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "Visual Studio Code", "skillLogo": "logo_visualstudiocode.png"},
+                {"skillName": "Anaconda", "skillLogo": "logo_anaconda.png"},
+                {"skillName": "Docker", "skillLogo": "logo_docker.png"},
+                {"skillName": "LM Studio", "skillLogo": "logo_lmstudio.png"},
+                {"skillName": "FileZilla", "skillLogo": "logo_filezilla.png"}
+            ],
+            "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
+        },
+        {"skillGroupName": "Data",
+            "skillGroupSkills": [
+                {"skillName": "SQL", "skillLogo": "logo_sql.png"},
+                {"skillName": "MySQL", "skillLogo": "logo_sql_mysql.png"},
+                {"skillName": "Microsoft SQL Server", "skillLogo": "logo_sql_microsoftsqlserver.png"},
+                {"skillName": "JSON", "skillLogo": "logo_json.png"},
+                {"skillName": "Microsoft Excel", "skillLogo": "logo_microsoftexcel.png"}
+            ],
+            "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
+        },
+        {"skillGroupName": "Documents",
+            "skillGroupSkills": [
+                {"skillName": "LaTeX", "skillLogo": "logo_latex_night.png"},
+                {"skillName": "typst", "skillLogo": "logo_typst_night.png"},
+                {"skillName": "Microsoft Word", "skillLogo": "logo_microsoftword.png"}
+            ],
+            "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
+        },
+        {"skillGroupName": "Design",
+            "skillGroupSkills": [
+                {"skillName": "UML", "skillLogo": "logo_uml.png"},
+                {"skillName": "StarUML", "skillLogo": "logo_staruml.png"}
+            ],
+            "skillGroupColour": "rose", "skillGroupGradationLeft": "800", "skillGroupGradationRight": "500"
         }
     ]
 }
