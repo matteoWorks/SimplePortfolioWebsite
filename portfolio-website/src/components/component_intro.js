@@ -24,7 +24,7 @@ function Intro() {
     const textLineClassName = "mx-4 mb-5 flex";
     for (let i = 0; i < textLines.length; i++) {
         const textLine = textLines[i];
-        time = 1250*i;
+        time += 1100;
         introText.push(
             <p className={textLineClassName}><ANIMATION_UNBLUR start={time} delay={125}>{textLine}</ANIMATION_UNBLUR></p>
         )

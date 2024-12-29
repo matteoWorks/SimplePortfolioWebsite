@@ -4,10 +4,10 @@
     "contacts": [
         {"contactName": "Protonmail", "contactLogo": "logo_protonmail.png", "contactLink": "mailto:morningape@protonmail.com"},
         {"contactName": "LinkedIn", "contactLogo": "logo_linkedin.png", "contactLink": "https://it.linkedin.com/in/baggio-matteo"},
-        {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "https://github.com/ShameIRL"}
+        {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "https://github.com/matteoWorks"}
     ],
     "experiences": [
-        {"experienceRole": "Software Developer", "experienceContract": "Thesis Internship", "experienceStartDate": "May 2024", "experienceEndDate": "Jun 2024", "experienceCompany": "Zucchetti", "experienceCompanyLink": "https://www.zucchetti.com/worldwide/cms/home.html",
+        {"experienceRole": "Software Developer", "experienceContract": "Full-Time Internship", "experienceStartDate": "May 2024", "experienceEndDate": "Jun 2024", "experienceCompany": "Zucchetti", "experienceCompanyLink": "https://www.zucchetti.com/worldwide/cms/home.html",
             "experienceSkills": [
                 {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
                 {"skillName": "SonarQube", "skillLogo": "logo_sonarqube.png"},
