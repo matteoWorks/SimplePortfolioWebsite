@@ -3,8 +3,6 @@ import React from 'react';
 import data from '../variables.json';
 
 function Skills() {
-    const githubLogo = require(`../assets/footerAssets/footer_logo_github_night.png`);
-
     // obtaining information relevant to this section from the "../variables.json" file:
     const variableSkillGroups = data.skillGroups;
 
