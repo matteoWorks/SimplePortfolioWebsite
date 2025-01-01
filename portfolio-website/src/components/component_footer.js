@@ -8,7 +8,7 @@ function Footer() {
     const contactClassName = "transform hover:scale-125 transition duration-500 bg-transparent saturate-100 hover:saturate-150 opacity-80 hover:opacity-100 pl-2"
 
     return (
-        <div id="footer" className="m-8 mt-24 sm:mt-48 text-center text-gray-100">
+        <div id="footer" className="my-2 mt-24 mb-4 sm:mt-48 text-center text-gray-100">
             <p>
                 Professional Experience Portfolio single-page Website.
                 Link to Repository:
