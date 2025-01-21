@@ -1,217 +1,179 @@
 {
-    "name": "Matteo",
-    "occupation": "Software Engineer",
+    "name": "INSERT_NAME",
+    "occupation": "INSERT_OCCUPATION",
     "contacts": [
-        {"contactName": "Protonmail", "contactLogo": "logo_protonmail.png", "contactLink": "mailto:morningape@protonmail.com"},
-        {"contactName": "LinkedIn", "contactLogo": "logo_linkedin.png", "contactLink": "https://it.linkedin.com/in/baggio-matteo"},
-        {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "https://github.com/matteoWorks"}
+        {"contactName": "Protonmail", "contactLogo": "logo_protonmail.png", "contactLink": "mailto:INSERT_EMAIL"},
+        {"contactName": "LinkedIn", "contactLogo": "logo_linkedin.png", "contactLink": "INSERT_LINKEDIN_URL"},
+        {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "INSERT_GITHUB_URL"}
     ],
     "experiences": [
-        {"experienceRole": "Software Developer", "experienceContract": "Full-Time Internship", "experienceStartDate": "May 2024", "experienceEndDate": "Jun 2024", "experienceCompany": "Zucchetti", "experienceCompanyLink": "https://www.zucchetti.com/worldwide/cms/home.html",
+        {"experienceRole": "INSERT_EXPERIENCE1", "experienceContract": "INSERT_CONTRACT1", "experienceStartDate": "INSERT_START1", "experienceEndDate": "INSERT_END1", "experienceCompany": "INSERT_COMPANY1", "experienceCompanyLink": "INSERT_COMPANY_URL1",
             "experienceSkills": [
                 {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
-                {"skillName": "SonarQube", "skillLogo": "logo_sonarqube.png"},
-                {"skillName": "HuggingFace", "skillLogo": "logo_huggingface.png"},
-                {"skillName": "llama.cpp", "skillLogo": "logo_llamacpp.png"},
-                {"skillName": "LM Studio", "skillLogo": "logo_lmstudio.png"},
-                {"skillName": "openAI APIs", "skillLogo": "logo_openapi_night.png"},
-                {"skillName": "JSON", "skillLogo": "logo_json.png"},
-                {"skillName": "Visual Studio Code", "skillLogo": "logo_visualstudiocode.png"},
-                {"skillName": "Python", "skillLogo": "logo_python.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "experienceDescriptions": [
-                {"descriptionContent": "Researched small-sized LLMs' capabilities;"},
-                {"descriptionContent": "Adopted Prompt Design and Prompt Engineering;"},
-                {"descriptionContent": "Implemented a LLM-based Practical Solution to assist Static Analysis;"},
-                {"descriptionContent": "Wrote my Thesis."}
+                {"descriptionContent": "INSERT_DESCRIPTION1.1;"},
+                {"descriptionContent": "INSERT_DESCRIPTION1.2;"},
+                {"descriptionContent": "INSERT_DESCRIPTION1.3;"},
+                {"descriptionContent": "INSERT_DESCRIPTION1.N."}
+            ],
+            "experienceColour": "red", "experienceGradationLeft": "600", "experienceGradationRight": "900"
+        },
+        {"experienceRole": "INSERT_EXPERIENCE2", "experienceContract": "INSERT_CONTRACT2", "experienceStartDate": "INSERT_START2", "experienceEndDate": "INSERT_END2", "experienceCompany": "INSERT_COMPANY2", "experienceCompanyLink": "INSERT_COMPANY_URL2",
+            "experienceSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
+            ],
+            "experienceDescriptions": [
+                {"descriptionContent": "INSERT_DESCRIPTION1.1;"},
+                {"descriptionContent": "INSERT_DESCRIPTION1.2;"},
+                {"descriptionContent": "INSERT_DESCRIPTION1.3;"},
+                {"descriptionContent": "INSERT_DESCRIPTION1.N."}
             ],
             "experienceColour": "sky", "experienceGradationLeft": "600", "experienceGradationRight": "900"
-        },
-        {"experienceRole": "Software Engineer", "experienceContract": "Full-Time Project", "experienceStartDate": "Oct 2023", "experienceEndDate": "Apr 2024", "experienceCompany": "Ergon Informatica", "experienceCompanyLink": "https://www.ergon.it/",
-            "experienceSkills": [
-                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
-                {"skillName": "GitHub Actions", "skillLogo": "logo_githubactions.png"},
-                {"skillName": "Ruff", "skillLogo": "logo_ruff.png"},
-                {"skillName": "ESLint", "skillLogo": "logo_eslint.png"},
-                {"skillName": "pytest", "skillLogo": "logo_pytest.png"},
-                {"skillName": "Jest", "skillLogo": "logo_jest.png"},
-                {"skillName": "Codecov", "skillLogo": "logo_codecov.png"},
-                {"skillName": "UML", "skillLogo": "logo_uml.png"},
-                {"skillName": "StarUML", "skillLogo": "logo_staruml.png"},
-                {"skillName": "Docker", "skillLogo": "logo_docker.png"},
-                {"skillName": "Visual Studio Code", "skillLogo": "logo_visualstudiocode.png"},
-                {"skillName": "SQL", "skillLogo": "logo_sql.png"},
-                {"skillName": "MySQL", "skillLogo": "logo_sql_mysql.png"},
-                {"skillName": "Anaconda", "skillLogo": "logo_anaconda.png"},
-                {"skillName": "Python", "skillLogo": "logo_python.png"},
-                {"skillName": "pandas", "skillLogo": "logo_python_pandas.png"},
-                {"skillName": "NumPy", "skillLogo": "logo_python_numpy.png"},
-                {"skillName": "PyTorch", "skillLogo": "logo_python_pytorch.png"},
-                {"skillName": "Flask", "skillLogo": "logo_flask.png"},
-                {"skillName": "HTML5", "skillLogo": "logo_html5.png"},
-                {"skillName": "CSS3", "skillLogo": "logo_css3.png"},
-                {"skillName": "JavaScript", "skillLogo": "logo_javascript.png"},
-                {"skillName": "NodeJS", "skillLogo": "logo_nodejs.png"},
-                {"skillName": "npm", "skillLogo": "logo_npm.png"},
-                {"skillName": "ReactJS", "skillLogo": "logo_reactjs.png"},
-                {"skillName": "TailwindCSS", "skillLogo": "logo_tailwindcss.png"},
-                {"skillName": "Axios", "skillLogo": "logo_axios.png"},
-                {"skillName": "Express", "skillLogo": "logo_express_night.png"},
-                {"skillName": "JSON", "skillLogo": "logo_json.png"},
-                {"skillName": "LaTeX", "skillLogo": "logo_latex_night.png"},
-                {"skillName": "typst", "skillLogo": "logo_typst_night.png"}
-            ],
-            "experienceDescriptions": [
-                {"descriptionContent": "Closely interacted with Stakeholders;"},
-                {"descriptionContent": "Applied Software Engineering Best Practices;"},
-                {"descriptionContent": "Implemented and Applied DevOps;"},
-                {"descriptionContent": "Produced a Recommender System Web Application based on a developed and trained Neural Network, through RTB & PB phases."}
-            ],
-            "experienceColour": "green", "experienceGradationLeft": "500", "experienceGradationRight": "800"
-        },
-        {"experienceRole": "Software Developer", "experienceContract": "Seasonal Job", "experienceStartDate": "Mar 2023", "experienceEndDate": "May 2023", "experienceCompany": "Tiesse Informatica", "experienceCompanyLink": "https://www.tiesseinformatica.it/",
-            "experienceSkills": [
-                {"skillName": "Microsoft Word", "skillLogo": "logo_microsoftword.png"},
-                {"skillName": "Microsoft Excel", "skillLogo": "logo_microsoftexcel.png"},
-                {"skillName": "Visual Studio Code", "skillLogo": "logo_visualstudiocode.png"},
-                {"skillName": ".NET", "skillLogo": "logo_net.png"},
-                {"skillName": "Visual Basic", "skillLogo": "logo_visualbasic.png"},
-                {"skillName": "SQL", "skillLogo": "logo_sql.png"},
-                {"skillName": "Microsoft SQL Server", "skillLogo": "logo_sql_microsoftsqlserver.png"},
-                {"skillName": "FileZilla", "skillLogo": "logo_filezilla.png"},
-                {"skillName": "Python", "skillLogo": "logo_python.png"},
-                {"skillName": "pandas", "skillLogo": "logo_python_pandas.png"}
-            ],
-            "experienceDescriptions": [
-                {"descriptionContent": "Advised on State of the Art Technologies;"},
-                {"descriptionContent": "Automated Government Platform's Deployment;"},
-                {"descriptionContent": "Improved Government Platform's functionalities and security."}
-            ],
-            "experienceColour": "orange", "experienceGradationLeft": "600", "experienceGradationRight": "900"
         }
     ],
     "educations": [
-        {"educationName": "Bachelor of Sciences in Computer Science", "educationSchool": "Università degli Studi di Padova", "educationSchoolLink": "https://www.unipd.it/en/", "educationLocation": "University of Padua", "educationStartYear": "Sep 2019", "educationEndYear": "Sep 2024",
+        {"educationName": "INSERT_EDUCATION1", "educationSchool": "INSERT_SCHOOL1", "educationSchoolLink": "INSERT_SCHOOL_LINK1", "educationLocation": "INSERT_LOCATION1", "educationStartYear": "INSERT_START1", "educationEndYear": "INSERT_END1",
             "educationSkills": [
-                {"skillName": "GCC", "skillLogo": "logo_gcc.png"},
-                {"skillName": "Visual Studio Code", "skillLogo": "logo_visualstudiocode.png"},
-                {"skillName": "CPP", "skillLogo": "logo_cpp.png"},
-                {"skillName": "Qt", "skillLogo": "logo_qt.png"},
-                {"skillName": "SQL", "skillLogo": "logo_sql.png"},
-                {"skillName": "PostgreSQL", "skillLogo": "logo_sql_postgresql.png"},
-                {"skillName": "MySQL", "skillLogo": "logo_sql_mysql.png"},
-                {"skillName": "JSON", "skillLogo": "logo_json.png"},
-                {"skillName": "MatLab", "skillLogo": "logo_matlab.png"},
-                {"skillName": "HTML5", "skillLogo": "logo_html5.png"},
-                {"skillName": "CSS3", "skillLogo": "logo_css3.png"},
-                {"skillName": "PHP", "skillLogo": "logo_php.png"},
-                {"skillName": "JavaScript", "skillLogo": "logo_javascript.png"},
-                {"skillName": "FileZilla", "skillLogo": "logo_filezilla.png"},
-                {"skillName": "Jupyter", "skillLogo": "logo_jupyter.png"},
-                {"skillName": "Python", "skillLogo": "logo_python.png"},
-                {"skillName": "pandas", "skillLogo": "logo_python_pandas.png"},
-                {"skillName": "NumPy", "skillLogo": "logo_python_numpy.png"},
-                {"skillName": "TensorFlow", "skillLogo": "logo_python_tensorflow.png"},
-                {"skillName": "Wireshark", "skillLogo": "logo_wireshark.png"},
-                {"skillName": "IDA Pro", "skillLogo": "logo_idapro.png"},
-                {"skillName": "Microsoft Excel", "skillLogo": "logo_microsoftexcel.png"},
                 {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
-                {"skillName": "UML", "skillLogo": "logo_uml.png"},
-                {"skillName": "StarUML", "skillLogo": "logo_staruml.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
-            "educationColour": "red", "educationGradationLeft": "700", "educationGradationRight": "900"
+            "educationColour": "red", "educationGradationLeft": "600", "educationGradationRight": "900"
         },
-        {"educationName": "Scientific High School Diploma, Applied Sciences", "educationSchool": "Liceo Scientifico Enrico Fermi", "educationSchoolLink": "https://www.liceofermipadova.edu.it/", "educationLocation": "di Padova", "educationStartYear": "Sep 2014", "educationEndYear": "Sep 2019",
+        {"educationName": "INSERT_EDUCATION1", "educationSchool": "INSERT_SCHOOL1", "educationSchoolLink": "INSERT_SCHOOL_LINK1", "educationLocation": "INSERT_LOCATION1", "educationStartYear": "INSERT_START1", "educationEndYear": "INSERT_END1",
             "educationSkills": [
-                {"skillName": "Microsoft Word", "skillLogo": "logo_microsoftword.png"},
-                {"skillName": "Microsoft Excel", "skillLogo": "logo_microsoftexcel.png"},
-                {"skillName": "CPP", "skillLogo": "logo_cpp.png"},
-                {"skillName": "HTML5", "skillLogo": "logo_html5.png"},
-                {"skillName": "CSS3", "skillLogo": "logo_css3.png"},
-                {"skillName": "JavaScript", "skillLogo": "logo_javascript.png"},
-                {"skillName": "SQL", "skillLogo": "logo_sql.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
-            "educationColour": "blue", "educationGradationLeft": "500", "educationGradationRight": "400"
+            "educationColour": "sky", "educationGradationLeft": "600", "educationGradationRight": "900"
         }
     ],
     "certificates": [
-        {"certificateName": "Health and Safety in the Workplace, Low Risk Level", "certificateLink": "_", "certificateType": "CERTIFICATE OF ATTENDANCE", "certificateCompany": "Zucchetti", "certificateCompanyLink": "https://www.zucchetti.com/worldwide/cms/home.html", "certificateDate": "May 2023",
+        {"certificateName": "INSERT_CERTIFICATE1", "certificateLink": "INSERT_CERTIFICATE_LINK1", "certificateType": "INSERT_CERTIFICATE_TYPE1", "certificateCompany": "INSERT_COMPANY1", "certificateCompanyLink": "INSERT_COMPANY_LINK1", "certificateDate": "INSERT_DATE1",
             "certificateSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
+            ],
+            "certificateColour": "red", "certificateGradationLeft": "600", "certificateGradationRight": "900"
+        },
+        {"certificateName": "INSERT_CERTIFICATE2", "certificateLink": "INSERT_CERTIFICATE_LINK2", "certificateType": "INSERT_CERTIFICATE_TYPE2", "certificateCompany": "INSERT_COMPANY2", "certificateCompanyLink": "INSERT_COMPANY_LINK2", "certificateDate": "INSERT_DATE2",
+            "certificateSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "certificateColour": "sky", "certificateGradationLeft": "600", "certificateGradationRight": "900"
-        },
-        {"certificateName": "Artificial Intelligence A-Z", "certificateLink": "https://udemy-certificate.s3.amazonaws.com/image/UC-ce2697ba-7b39-4828-9f07-9a21202affcd.jpg?v=1698341762000", "certificateType": "CERTIFICATE OF COMPLETION", "certificateCompany": "Udemy", "certificateCompanyLink": "https://www.udemy.com/", "certificateDate": "October 2023",
-            "certificateSkills": [
-                {"skillName": "Anaconda", "skillLogo": "logo_anaconda.png"},
-                {"skillName": "Jupyter", "skillLogo": "logo_jupyter.png"},
-                {"skillName": "Python", "skillLogo": "logo_python.png"},
-                {"skillName": "NumPy", "skillLogo": "logo_python_numpy.png"},
-                {"skillName": "PyTorch", "skillLogo": "logo_python_pytorch.png"}
-            ],
-            "certificateColour": "violet", "certificateGradationLeft": "600", "certificateGradationRight": "800"
-        },
-        {"certificateName": "Data Protection and Information Security", "certificateLink": "_", "certificateType": "CERTIFICATE OF ATTENDANCE", "certificateCompany": "Tiesse Informatica", "certificateCompanyLink": "https://www.tiesseinformatica.it/", "certificateDate": "April 2023",
-            "certificateSkills": [
-            ],
-            "certificateColour": "orange", "certificateGradationLeft": "600", "certificateGradationRight": "900"
         }
     ],
     "skillGroups": [
         {"skillGroupName": "Languages",
             "skillGroupSkills": [
-                {"skillName": "CPP", "skillLogo": "logo_cpp.png"},
-                {"skillName": "Python", "skillLogo": "logo_python.png"},
-                {"skillName": "JavaScript", "skillLogo": "logo_javascript.png"},
-                {"skillName": "HTML5", "skillLogo": "logo_html5.png"},
-                {"skillName": "CSS3", "skillLogo": "logo_css3.png"},
-                {"skillName": "Visual Basic", "skillLogo": "logo_visualbasic.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
         },
         {"skillGroupName": "Libraries & Frameworks",
             "skillGroupSkills": [
-                {"skillName": "Qt", "skillLogo": "logo_qt.png"},
-                {"skillName": "pandas", "skillLogo": "logo_python_pandas.png"},
-                {"skillName": "PyTorch", "skillLogo": "logo_python_pytorch.png"},
-                {"skillName": "llama.cpp", "skillLogo": "logo_llamacpp.png"},
-                {"skillName": "ReactJS", "skillLogo": "logo_reactjs.png"},
-                {"skillName": "TailwindCSS", "skillLogo": "logo_tailwindcss.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "skillGroupColour": "orange", "skillGroupGradationLeft": "700", "skillGroupGradationRight": "500"
         },
         {"skillGroupName": "Tools",
             "skillGroupSkills": [
                 {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
-                {"skillName": "Visual Studio Code", "skillLogo": "logo_visualstudiocode.png"},
-                {"skillName": "Anaconda", "skillLogo": "logo_anaconda.png"},
-                {"skillName": "Docker", "skillLogo": "logo_docker.png"},
-                {"skillName": "LM Studio", "skillLogo": "logo_lmstudio.png"},
-                {"skillName": "FileZilla", "skillLogo": "logo_filezilla.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
         },
         {"skillGroupName": "Data",
             "skillGroupSkills": [
-                {"skillName": "SQL", "skillLogo": "logo_sql.png"},
-                {"skillName": "MySQL", "skillLogo": "logo_sql_mysql.png"},
-                {"skillName": "Microsoft SQL Server", "skillLogo": "logo_sql_microsoftsqlserver.png"},
-                {"skillName": "JSON", "skillLogo": "logo_json.png"},
-                {"skillName": "Microsoft Excel", "skillLogo": "logo_microsoftexcel.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
         },
         {"skillGroupName": "Documents",
             "skillGroupSkills": [
-                {"skillName": "LaTeX", "skillLogo": "logo_latex_night.png"},
-                {"skillName": "typst", "skillLogo": "logo_typst_night.png"},
-                {"skillName": "Microsoft Word", "skillLogo": "logo_microsoftword.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
         },
         {"skillGroupName": "Design",
             "skillGroupSkills": [
-                {"skillName": "UML", "skillLogo": "logo_uml.png"},
-                {"skillName": "StarUML", "skillLogo": "logo_staruml.png"}
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
             ],
             "skillGroupColour": "rose", "skillGroupGradationLeft": "800", "skillGroupGradationRight": "500"
         }
