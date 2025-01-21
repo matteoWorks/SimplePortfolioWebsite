@@ -16,8 +16,9 @@
 + [Getting Started](#gettingStarted)
     + [React Prerequisites](#reactPrerequisites)
     + [Assets](#assets)
+    + [Website Variables Definition](#websiteVariablesDefinition)
+    + [Personal Variables Definition](#personalVariablesDefinition)
 + [Execution](#execution)
-    + [Variables Definition](#variablesDefinition)
     + [Build](#build)
   
 ## About <a name = "about"></a>
@@ -34,7 +35,7 @@ The versions used in the template are _React 18.3.1_, _react-scripts 5.0.1_, _we
 
 ### Assets <a name = "assets"></a>
 
-Due to the straightforward nature of this template, it heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images regarding skills are used and are located in the _/portfolio-website/src/assets_ folder. The name of these images is in the following format: _logo\_\[SKILL\_NAME\].png_.
+Due to the straightforward nature of this template, this portfolio website heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images regarding skills are used. These images are located in the _/portfolio-website/src/assets_ folder and are named in the following format: _logo\_\[SKILL\_NAME\].png_.
 
 To add a new image, rename it using the template _logo\_\[SKILL\_NAME\].png_ and place it in the _/portfolio-website/src/assets_ folder.
 
@@ -102,8 +103,10 @@ The already available images related to skills are the following, shown in alpha
 <img src="/portfolio-website/src/assets/logo_visualstudiocode.png" alt="Visual Studio Code" width="36" />
 <img src="/portfolio-website/src/assets/logo_wireshark.png" alt="Wireshark" width="36" />
 
-## Execution <a name = "execution"></a>
+### Website Variables Definition <a name = "websiteVariablesDefinition"></a>
 
-### Variables Definition <a name = "variablesDefinition"></a>
+### Personal Variables Definition <a name = "personalVariablesDefinition"></a>
+
+## Execution <a name = "execution"></a>
 
 ### Build <a name = "build"></a>
