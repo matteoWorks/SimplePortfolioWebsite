@@ -35,7 +35,7 @@ The versions used in the template are _React 18.3.1_, _react-scripts 5.0.1_, _we
 
 ### Assets <a name = "assets"></a>
 
-Due to the straightforward nature of this template, this portfolio website heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images regarding skills are used. These images are located in the "_portfolio-website/src/assets_" folder and are named in the following format: "_logo\_\[SKILL\_NAME\].png_".
+Due to the straightforward nature of this template, this portfolio website heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images related to skills are used. These images are located in the "_portfolio-website/src/assets_" folder and are named in the following format: "_logo\_\[SKILL\_NAME\].png_".
 
 To add a new image, rename it using the template "_logo\_\[SKILL\_NAME\].png_" and place it in the "_portfolio-website/src/assets_" folder.
 
@@ -105,8 +105,8 @@ The already available images related to skills are the following, shown in alpha
 
 ### Website Variables Definition <a name = "websiteVariablesDefinition"></a>
 
-The website variables that need to be modified are the ones regarding the homepage URL and the website title/name. \
-These variables are found in the "_portfolio-website/package.json_", "_portfolio-website/public/favicon.ico_", "_portoflio-website/public/index.html_" and "_portfolio-website/public/manifest.json_" files:
+The website variables that need to be modified are the ones related the homepage URL and the website title/name. \
+These variables are found and can be edited in the "_portfolio-website/package.json_", "_portfolio-website/public/favicon.ico_", "_portoflio-website/public/index.html_" and "_portfolio-website/public/manifest.json_" files:
 
 - _portfolio-website/package.json_ (lines 1 to 3):
 ```json
@@ -134,17 +134,30 @@ Change the content of the "_content_" variable from "_Portfolio Website_" to you
 ```
 Change the content of the "_title_" tag from "_My Portfolio_" to your website's title (ideally "_Name Surname_") in line 27;
 
-- _portoflio-website/public/manifest.json_ (lines 1 to 4):
+- _portoflio-website/public/manifest.json_ (lines 1 to 3):
 ```json
 {
   "short_name": "Portfolio",
   "name": "My Portfolio",
-  "icons": [
 ```
-Change the content of the "_short\_name_" and "_name_" variables from "_Portfolio_" and "_My Portfolio_" to your website's short name and name (ideally "_Name Portfolio_" and "_Name Surname Portfolio_") in line 2 and 3;
+Change the content of the "_short\_name_" and "_name_" variables from "_Portfolio_" and "_My Portfolio_" to your website's short name and name (ideally "_Name Portfolio_" and "_Name Surname Portfolio_") in line 2 and 3.
 
 ### Personal Variables Definition <a name = "personalVariablesDefinition"></a>
+
+> [!TIP]
+> Before modifying these variables, it is recommended to add images that represent the skills and knowledge you possess. This process is shown in the previous [Assets](#assets) section; \
+> To improve the recognition of your skills, it's advisable to use official logos.
+
+The personal variables that need to be added are those related to your experience, education, certifications, and skills. \
+These variables are found in the "_portfolio-website/src/variables.json_" file.
 
 ## Execution <a name = "execution"></a>
 
 ### Build <a name = "build"></a>
+
+To generate the final build, simply navigate to the "_portfolio-website_" folder and run the _npm run build_ command as shown:
+```bash
+$ cd path/to/portfolio-website
+$ npm run build
+```
+The resulting _build_ folder is now ready to be uploaded to your domain.
