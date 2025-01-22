@@ -35,9 +35,9 @@ The versions used in the template are _React 18.3.1_, _react-scripts 5.0.1_, _we
 
 ### Assets <a name = "assets"></a>
 
-Due to the straightforward nature of this template, this portfolio website heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images regarding skills are used. These images are located in the _/portfolio-website/src/assets_ folder and are named in the following format: _logo\_\[SKILL\_NAME\].png_.
+Due to the straightforward nature of this template, this portfolio website heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images regarding skills are used. These images are located in the "_portfolio-website/src/assets_" folder and are named in the following format: "_logo\_\[SKILL\_NAME\].png_".
 
-To add a new image, rename it using the template _logo\_\[SKILL\_NAME\].png_ and place it in the _/portfolio-website/src/assets_ folder.
+To add a new image, rename it using the template "_logo\_\[SKILL\_NAME\].png_" and place it in the "_portfolio-website/src/assets_" folder.
 
 > [!TIP]
 > This template includes a basic set of assets, some of which may not be necessary for your portfolio website. Hence it is recommended to remove unused assets to keep your project clean and efficient; \
@@ -104,6 +104,44 @@ The already available images related to skills are the following, shown in alpha
 <img src="/portfolio-website/src/assets/logo_wireshark.png" alt="Wireshark" width="36" />
 
 ### Website Variables Definition <a name = "websiteVariablesDefinition"></a>
+
+The website variables that need to be modified are the ones regarding the homepage URL and the website title/name. \
+These variables are found in the "_portfolio-website/package.json_", "_portfolio-website/public/favicon.ico_", "_portoflio-website/public/index.html_" and "_portfolio-website/public/manifest.json_" files:
+
+- _portfolio-website/package.json_ (lines 1 to 3):
+```json
+{
+  "homepage": "",
+  "name": "portfolio-website",
+```
+Add your website's Homepage URL to the _homepage_ variable in line 2;
+
+- _portfolio_website/favicon.ico_ (whole file);
+
+- _portoflio-website/public/index.html_ (lines 8 to 11):
+```html
+    <meta
+      name="description"
+      content="Portfolio Website"
+    />
+```
+Change the content of the "_content_" variable from "_Portfolio Website_" to your website's content (ideally "_Name Surname Portfolio_") in line 10;
+
+- _portoflio-website/public/index.html_ (lines 27 to 28):
+```html
+    <title>My Portfolio</title>
+  </head>
+```
+Change the content of the "_title_" tag from "_My Portfolio_" to your website's title (ideally "_Name Surname_") in line 27;
+
+- _portoflio-website/public/manifest.json_ (lines 1 to 4):
+```json
+{
+  "short_name": "Portfolio",
+  "name": "My Portfolio",
+  "icons": [
+```
+Change the content of the "_short\_name_" and "_name_" variables from "_Portfolio_" and "_My Portfolio_" to your website's short name and name (ideally "_Name Portfolio_" and "_Name Surname Portfolio_") in line 2 and 3;
 
 ### Personal Variables Definition <a name = "personalVariablesDefinition"></a>
 
