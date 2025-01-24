@@ -1,6 +1,8 @@
 # Simple Portfolio Website
 
+[![Node.js 20.12.2](https://img.shields.io/badge/Node.js-20.12.2-417e38.svg)](https://nodejs.org/en/blog/release/v20.12.2)
 [![React 18.3.1](https://img.shields.io/badge/React-18.3.1-027fa5.svg)](https://18.react.dev/)
+[![npm 10.5.0](https://img.shields.io/badge/npm-10.5.0-af0506.svg)](https://www.npmjs.com/package/npm/v/10.5.0)
 [![react-scripts 5.0.1](https://img.shields.io/badge/react--scripts-5.0.1-af0506.svg)](https://www.npmjs.com/package/react-scripts/v/5.0.1)
 [![web-vitals 2.1.4](https://img.shields.io/badge/web--vitals-2.1.4-af0506.svg)](https://www.npmjs.com/package/web-vitals/v/2.1.4)
 [![react-scroll 1.9.0](https://img.shields.io/badge/react--scroll-1.9.0-af0506.svg)](https://www.npmjs.com/package/react-scroll/v/1.9.0)
@@ -14,6 +16,7 @@
 
 + [About](#about)
 + [Getting Started](#gettingStarted)
+    + [Node.js and npm Prerequisites](#nodeJS&npmPrerequisites)
     + [React Prerequisites](#reactPrerequisites)
     + [Assets](#assets)
     + [Website Variables Definition](#websiteVariablesDefinition)
@@ -27,6 +30,11 @@ This repository provides a simple, customizable template for a portfolio website
 The result can be seen on my own [website](https://matteobaggio.com). 
 
 ## Getting Started <a name = "gettingStarted"></a>
+
+### Node.js and npm Prerequisites <a name = "nodeJS&npmPrerequisites"></a>
+
+_Node.js_ and _npm_ are required. \
+The versions used in the development are _Node.js 20.12.2_ and _npm 10.5.0_, however any version should work.
 
 ### React Prerequisites <a name = "reactPrerequisites"></a>
 
@@ -147,6 +155,9 @@ Change the content of the "_short\_name_" and "_name_" variables from "_Portfoli
 > [!TIP]
 > Before modifying these variables, it is recommended to add images that represent the skills and knowledge you possess. This process is shown in the previous [Assets](#assets) section; \
 > To improve the recognition of your skills, it's advisable to use official logos.
+
+> [!IMPORTANT]
+> Note that external links may not be reachable in the future.
 
 The personal variables that need to be added are those related to your experience, education, certifications, and skills. \
 These variables are found in the "_portfolio-website/src/variables.json_" file.
