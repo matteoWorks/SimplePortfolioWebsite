@@ -159,8 +159,106 @@ Change the content of the "_short\_name_" and "_name_" variables from "_Portfoli
 > [!IMPORTANT]
 > Note that external links may not be reachable in the future.
 
-The personal variables that need to be added are those related to your experience, education, certifications, and skills. \
-These variables are found in the "_portfolio-website/src/variables.json_" file.
+The personal variables that need to be added are those related to your information, experience, education, certificates, and skills. \
+These variables are found in the "_portfolio-website/src/variables.json_" file:
+
+- Your Information:
+```json
+    "name": "INSERT_NAME",
+    "occupation": "INSERT_OCCUPATION",
+    "contacts": [
+        {"contactName": "Protonmail", "contactLogo": "logo_protonmail.png", "contactLink": "mailto:INSERT_EMAIL"},
+        {"contactName": "LinkedIn", "contactLogo": "logo_linkedin.png", "contactLink": "INSERT_LINKEDIN_URL"},
+        {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "INSERT_GITHUB_URL"}
+    ],
+```
+Fill the variables requiring to insert a value related to your information, which are currently filled with the "_INSERT\_[variableName]_" placeholder; \
+Modify the "_contacts_" variables accordingly to your available contacts and with your own assets.
+
+- Your Experience:
+```json
+    "experiences": [
+        {"experienceRole": "INSERT_EXPERIENCE1", "experienceContract": "INSERT_CONTRACT1", "experienceStartDate": "INSERT_START1", "experienceEndDate": "INSERT_END1", "experienceCompany": "INSERT_COMPANY1", "experienceCompanyLink": "INSERT_COMPANY_URL1",
+            "experienceSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
+            ],
+            "experienceDescriptions": [
+                {"descriptionContent": "INSERT_DESCRIPTION1.1;"},
+                {"descriptionContent": "INSERT_DESCRIPTION1.N."}
+            ],
+            "experienceColour": "red", "experienceGradationLeft": "600", "experienceGradationRight": "900"
+        }
+    ],
+```
+Fill the variables requiring to insert a value related to your experience, which are currently filled with the "_INSERT\_[variableName]_" placeholder; \
+Modify the "_experienceSkills_" and the "_experienceDescriptions_" variables accordingly to the skills and the description related to the current experience; \
+Change the "_experienceColour_" variable with the colour that fits your experience the most. The "_experienceGradationLeft_" and "_experienceGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
+Add as many experiences as you desire in the "_experiences_" variable.
+
+- Your Education:
+```json
+    "educations": [
+        {"educationName": "INSERT_EDUCATION1", "educationSchool": "INSERT_SCHOOL1", "educationSchoolLink": "INSERT_SCHOOL_LINK1", "educationLocation": "INSERT_LOCATION1", "educationStartYear": "INSERT_START1", "educationEndYear": "INSERT_END1",
+            "educationSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
+            ],
+            "educationColour": "red", "educationGradationLeft": "600", "educationGradationRight": "900"
+        }
+    ],
+```
+Fill the variables requiring to insert a value related to your education, which are currently filled with the "_INSERT\_[variableName]_" placeholder; \
+Modify the "_educationSkills_" variables accordingly to the skills related to the current education; \
+Change the "_educationColour_" variable with the colour that fits your education the most. The "_educationGradationLeft_" and "_educationGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
+Add as many educations as you desire in the "_educations_" variable.
+
+- Your Certificates:
+```json
+    "certificates": [
+        {"certificateName": "INSERT_CERTIFICATE1", "certificateLink": "INSERT_CERTIFICATE_LINK1", "certificateType": "INSERT_CERTIFICATE_TYPE1", "certificateCompany": "INSERT_COMPANY1", "certificateCompanyLink": "INSERT_COMPANY_LINK1", "certificateDate": "INSERT_DATE1",
+            "certificateSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
+            ],
+            "certificateColour": "red", "certificateGradationLeft": "600", "certificateGradationRight": "900"
+        }
+    ],
+```
+Fill the variables requiring to insert a value related to your education, which are currently filled with the "_INSERT\_[variableName]_" placeholder, note that the "_certificateLink_" variable can be left empty by filling it with an underscore ( _ ); \
+Modify the "_certificateSkills_" variables accordingly to the skills related to the current certificate; \
+Change the "_certificateColour_" variable with the colour that fits your certificate the most. The "_certificateGradationLeft_" and "_certificateGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
+Add as many certificates as you desire in the "_certificates_" variable.
+
+- Your Skills:
+```json
+    "skillGroups": [
+        {"skillGroupName": "Languages",
+            "skillGroupSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
+            ],
+            "skillGroupColour": "sky", "skillGroupGradationLeft": "600", "skillGroupGradationRight": "400"
+        },
+        {"skillGroupName": "Libraries & Frameworks",
+            "skillGroupSkills": [
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"},
+                {"skillName": "GitHub", "skillLogo": "logo_github_night.png"}
+            ],
+            "skillGroupColour": "orange", "skillGroupGradationLeft": "700", "skillGroupGradationRight": "500"
+        }
+    ]
+```
+The skills section is divided in various groups of connected skills; \
+Add as many skill groups as you desire in the "_skillGroups_" variable; \
+For each skill group modify the "_skillGroupSkills_" variables accordingly to the skills related to the current skill group; \
+For each skill group change the "_skillGroupColour_" variable with the colour that fits your skill group the most. The "_skillGroupGradationLeft_" and "_skillGroupGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors).
 
 ## Execution <a name = "execution"></a>
 
