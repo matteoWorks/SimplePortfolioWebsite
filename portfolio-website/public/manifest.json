@@ -14,7 +14,7 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "browser",
   "id": "portfolio",
   "theme_color": "#000000",
   "background_color": "#000000"
