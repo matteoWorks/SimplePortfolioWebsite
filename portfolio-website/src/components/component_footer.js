@@ -12,7 +12,7 @@ function Footer() {
             <p>
                 Professional Experience Portfolio single-page Website.
                 Link to Repository:
-                <button className={contactClassName}><a href="https://github.com/matteoWorks/PortfolioWebsite" target="_blank" rel="noreferrer"><img src={githubLogo} alt="GitHub" type="image/png" width="14" height="14" /></a></button>
+                <button className={contactClassName}><a href="https://github.com/matteoWorks/SimplePortfolioWebsite" target="_blank" rel="noreferrer"><img src={githubLogo} alt="GitHub" type="image/png" width="14" height="14" /></a></button>
             </p>
             <p>
                 © 2024 Matteo Baggio. Contact me:
