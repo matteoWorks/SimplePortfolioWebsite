@@ -34,7 +34,7 @@ function Intro() {
 
     // defining the contact buttons by using the information present in "../variables.json":
     const contacts = [];
-    const contactClassName = "transform hover:scale-125 transition duration-500 bg-transparent saturate-100 hover:saturate-150 opacity-80 hover:opacity-100";
+    const contactClassName = "transform hover:scale-125 transition duration-500 bg-transparent saturate-100 hover:saturate-150 opacity-80 hover:opacity-100 h-9 w-9 sm:h-12 sm:w-12";
     for (let i = 0; i < variableContacts.length; i++) {
         const contact = variableContacts[i];
         const contactLink = contact.contactLink;
@@ -42,7 +42,7 @@ function Intro() {
         const contactLogo = require(`../assets/${contact.contactLogo}`);
         time += 500;
         contacts.push(
-            <ANIMATION_UNBLUR start={time} delay={50}><button className={contactClassName}><a href={contactLink} target="_blank" rel="noreferrer"><img src={contactLogo} alt={contactName} title={contactName} type="image/png" width="48" height="48" /></a></button></ANIMATION_UNBLUR>
+            <ANIMATION_UNBLUR start={time} delay={50}><button className={contactClassName}><a href={contactLink} target="_blank" rel="noreferrer"><img src={contactLogo} alt={contactName} title={contactName} type="image/png" /></a></button></ANIMATION_UNBLUR>
         )
     }
 

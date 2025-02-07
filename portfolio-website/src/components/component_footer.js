@@ -16,7 +16,6 @@ function Footer() {
             </p>
             <p>
                 © 2024 Matteo Baggio. Contact me:
-                <button className={contactClassName}><a href="mailto:morningape@protonmail.com" target="_blank" rel="noreferrer"><img src={protonmailLogo} alt="Protonmail" type="image/png" width="14" height="14" /></a></button>
                 <button className={contactClassName}><a href="https://it.linkedin.com/in/baggio-matteo" target="_blank" rel="noreferrer"><img src={linkedinLogo} alt="LinkedIn" type="image/png" width="14" height="14" /></a></button>
                 <button className={contactClassName}><a href="https://github.com/matteoWorks" target="_blank" rel="noreferrer"><img src={githubLogo} alt="GitHub" type="image/png" width="14" height="14" /></a></button>
             </p>
