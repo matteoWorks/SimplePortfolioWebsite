@@ -1,10 +1,9 @@
 # Simple Portfolio Website
 
-[![Node.js 20.12.2](https://img.shields.io/badge/Node.js-20.12.2-417e38.svg)](https://nodejs.org/en/blog/release/v20.12.2)
+[![Node.js 23.7.0](https://img.shields.io/badge/Node.js-23.7.0-417e38.svg)](https://nodejs.org/en/blog/release/v23.7.0)
 [![React 18.3.1](https://img.shields.io/badge/React-18.3.1-027fa5.svg)](https://18.react.dev/)
-[![npm 10.5.0](https://img.shields.io/badge/npm-10.5.0-af0506.svg)](https://www.npmjs.com/package/npm/v/10.5.0)
+[![npm 10.9.2](https://img.shields.io/badge/npm-10.9.2-af0506.svg)](https://www.npmjs.com/package/npm/v/10.9.2)
 [![react-scripts 5.0.1](https://img.shields.io/badge/react--scripts-5.0.1-af0506.svg)](https://www.npmjs.com/package/react-scripts/v/5.0.1)
-[![web-vitals 2.1.4](https://img.shields.io/badge/web--vitals-2.1.4-af0506.svg)](https://www.npmjs.com/package/web-vitals/v/2.1.4)
 [![react-scroll 1.9.0](https://img.shields.io/badge/react--scroll-1.9.0-af0506.svg)](https://www.npmjs.com/package/react-scroll/v/1.9.0)
 [![TailwindCSS 3.4.14](https://img.shields.io/badge/TailwindCSS-3.4.14-0fa5e9.svg)](https://tailwindcss.com/docs/installation)
 
@@ -34,12 +33,12 @@ The result can be seen on my own [website](https://matteobaggio.com).
 ### Node.js and npm Prerequisites <a name = "nodeJS&npmPrerequisites"></a>
 
 _Node.js_ and _npm_ are required. \
-The versions used in the development are _Node.js 20.12.2_ and _npm 10.5.0_, however any version should work.
+The versions used in the development are _Node.js 23.7.0_ and _npm 10.9.2_, however any version should work.
 
 ### React Prerequisites <a name = "reactPrerequisites"></a>
 
-_React_ is required, along with the _react-scripts_, _web-vitals_ and _react-scroll_ packages and the _TailwindCSS_ framework. \
-The versions used in the template are _React 18.3.1_, _react-scripts 5.0.1_, _web-vitals 2.1.4_, _react-scroll 1.9.0_ and _TailwindCSS 3.4.14_, however any version should work, but without a guarantee, so make sure to test the functionality when using different versions. 
+_React_ is required, along with the _react-scripts_ and _react-scroll_ packages and the _TailwindCSS_ framework. \
+The versions used in the template are _React 18.3.1_, _react-scripts 5.0.1_, _react-scroll 1.9.0_ and _TailwindCSS 3.4.14_, however any version should work, but without a guarantee, so make sure to test the functionality when using different versions. 
 
 ### Assets <a name = "assets"></a>
 
