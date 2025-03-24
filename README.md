@@ -22,6 +22,7 @@
     + [Personal Variables Definition](#personalVariablesDefinition)
 + [Execution](#execution)
     + [Build](#build)
++ [Retrospective](#retrospective)
   
 ## About <a name = "about"></a>
 
@@ -269,3 +270,8 @@ $ cd path/to/portfolio-website
 $ npm run build
 ```
 The resulting _build_ folder is now ready to be uploaded to your domain.
+
+## Retrospective <a name = "retrospective"></a>
+
+In this project, my main focus was on the design, ensuring it was both visually appealing and simple to understand. \
+My other focus was on expanding my skills and knowledge in ReactJS and TailwindCSS.
