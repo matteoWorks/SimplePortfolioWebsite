@@ -1,3 +1,6 @@
+> [!WARNING]
+> Repository currently not maintained.
+
 # Simple Portfolio Website
 
 [![Node.js 23.7.0](https://img.shields.io/badge/Node.js-23.7.0-417e38.svg)](https://nodejs.org/en/blog/release/v23.7.0)
