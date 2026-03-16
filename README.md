@@ -46,9 +46,9 @@ The versions used in the template are _React 18.3.1_, _react-scripts 5.0.1_, _re
 
 ### Assets <a name = "assets"></a>
 
-Due to the straightforward nature of this template, this portfolio website heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images related to skills are used. These images are located in the "_portfolio-website/src/assets_" folder and are named in the following format: "_logo\_\[SKILL\_NAME\].png_".
+Due to the straightforward nature of this template, this portfolio website heavily emphasizes visual elements that represent skills, experiences, and education of an individual. Hence many images related to skills are used. These images are located in the `portfolio-website/src/assets` folder and are named in the following format: `logo_[SKILL_NAME].png`.
 
-To add a new image, rename it using the template "_logo\_\[SKILL\_NAME\].png_" and place it in the "_portfolio-website/src/assets_" folder.
+To add a new image, rename it using the template `logo_[SKILL_NAME].png` and place it in the `portfolio-website/src/assets` folder.
 
 > [!TIP]
 > This template includes a basic set of assets, some of which may not be necessary for your portfolio website. Hence it is recommended to remove unused assets to keep your project clean and efficient; \
@@ -117,33 +117,33 @@ The already available images related to skills are the following, shown in alpha
 ### Website Variables Definition <a name = "websiteVariablesDefinition"></a>
 
 The website variables that need to be modified are the ones related the homepage URL and the website title/name. \
-These variables are found and can be edited in the "_portfolio-website/package.json_", "_portfolio-website/public/favicon.ico_", "_portoflio-website/public/index.html_" and "_portfolio-website/public/manifest.json_" files:
+These variables are found and can be edited in the `portfolio-website/package.json`, `portfolio-website/public/favicon.ico`, `portoflio-website/public/index.html` and `portfolio-website/public/manifest.json` files:
 
-- _portfolio-website/package.json_ (lines 1 to 3):
+- `portfolio-website/package.json` (lines 1 to 3):
 ```json
 {
   "homepage": "",
   "name": "portfolio-website",
 ```
-Add your website's Homepage URL to the _homepage_ variable in line 2;
+Add your website's Homepage URL to the `homepage` variable in line 2;
 
-- _portfolio_website/favicon.ico_ (whole file);
+- `portfolio_website/favicon.ico` (whole file);
 
-- _portoflio-website/public/index.html_ (lines 8 to 11):
+- `portoflio-website/public/index.html` (lines 8 to 11):
 ```html
     <meta
       name="description"
       content="Portfolio Website"
     />
 ```
-Change the content of the "_content_" variable from "_Portfolio Website_" to your website's content (ideally "_Name Surname Portfolio_") in line 10;
+Change the content of the `content` variable from "_Portfolio Website_" to your website's content (ideally "_Name Surname Portfolio_") in line 10;
 
-- _portoflio-website/public/index.html_ (lines 27 to 28):
+- `portoflio-website/public/index.html` (lines 27 to 28):
 ```html
     <title>My Portfolio</title>
   </head>
 ```
-Change the content of the "_title_" tag from "_My Portfolio_" to your website's title (ideally "_Name Surname_") in line 27;
+Change the content of the `title` tag from "_My Portfolio_" to your website's title (ideally "_Name Surname_") in line 27;
 
 - _portoflio-website/public/manifest.json_ (lines 1 to 3):
 ```json
@@ -151,7 +151,7 @@ Change the content of the "_title_" tag from "_My Portfolio_" to your website's 
   "short_name": "Portfolio",
   "name": "My Portfolio",
 ```
-Change the content of the "_short\_name_" and "_name_" variables from "_Portfolio_" and "_My Portfolio_" to your website's short name and name (ideally "_Name Portfolio_" and "_Name Surname Portfolio_") in line 2 and 3.
+Change the content of the `short_name` and `name` variables from "_Portfolio_" and "_My Portfolio_" to your website's short name and name (ideally "_Name Portfolio_" and "_Name Surname Portfolio_") in line 2 and 3.
 
 ### Personal Variables Definition <a name = "personalVariablesDefinition"></a>
 
@@ -163,7 +163,7 @@ Change the content of the "_short\_name_" and "_name_" variables from "_Portfoli
 > Note that external links may not be reachable in the future.
 
 The personal variables that need to be added are those related to your information, experience, education, certificates, and skills. \
-These variables are found in the "_portfolio-website/src/variables.json_" file:
+These variables are found in the `portfolio-website/src/variables.json` file:
 
 - Your Information:
 ```json
@@ -175,8 +175,8 @@ These variables are found in the "_portfolio-website/src/variables.json_" file:
         {"contactName": "GitHub", "contactLogo": "logo_github_night.png", "contactLink": "INSERT_GITHUB_URL"}
     ],
 ```
-Fill the variables requiring to insert a value related to your information, which are currently filled with the "_INSERT\_[variableName]_" placeholder; \
-Modify the "_contacts_" variables accordingly to your available contacts and with your own assets.
+Fill the variables requiring to insert a value related to your information, which are currently filled with the `INSERT_[variableName]` placeholder; \
+Modify the `contacts` variables accordingly to your available contacts and with your own assets.
 
 - Your Experience:
 ```json
@@ -196,10 +196,10 @@ Modify the "_contacts_" variables accordingly to your available contacts and wit
         }
     ],
 ```
-Fill the variables requiring to insert a value related to your experience, which are currently filled with the "_INSERT\_[variableName]_" placeholder; \
-Modify the "_experienceSkills_" and the "_experienceDescriptions_" variables accordingly to the skills and the description related to the current experience; \
-Change the "_experienceColour_" variable with the colour that fits your experience the most. The "_experienceGradationLeft_" and "_experienceGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
-Add as many experiences as you desire in the "_experiences_" variable.
+Fill the variables requiring to insert a value related to your experience, which are currently filled with the `INSERT_[variableName]` placeholder; \
+Modify the `experienceSkills` and the `experienceDescriptions` variables accordingly to the skills and the description related to the current experience; \
+Change the `experienceColour` variable with the colour that fits your experience the most. The `experienceGradationLeft` and `experienceGradationRight` variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
+Add as many experiences as you desire in the `experiences` variable.
 
 - Your Education:
 ```json
@@ -215,10 +215,10 @@ Add as many experiences as you desire in the "_experiences_" variable.
         }
     ],
 ```
-Fill the variables requiring to insert a value related to your education, which are currently filled with the "_INSERT\_[variableName]_" placeholder; \
-Modify the "_educationSkills_" variables accordingly to the skills related to the current education; \
-Change the "_educationColour_" variable with the colour that fits your education the most. The "_educationGradationLeft_" and "_educationGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
-Add as many educations as you desire in the "_educations_" variable.
+Fill the variables requiring to insert a value related to your education, which are currently filled with the `INSERT_[variableName]` placeholder; \
+Modify the `educationSkills` variables accordingly to the skills related to the current education; \
+Change the `educationColour` variable with the colour that fits your education the most. The `educationGradationLeft` and `educationGradationRight` variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
+Add as many educations as you desire in the `educations` variable.
 
 - Your Certificates:
 ```json
@@ -234,10 +234,10 @@ Add as many educations as you desire in the "_educations_" variable.
         }
     ],
 ```
-Fill the variables requiring to insert a value related to your education, which are currently filled with the "_INSERT\_[variableName]_" placeholder, note that the "_certificateLink_" variable can be left empty by filling it with an underscore ( _ ); \
-Modify the "_certificateSkills_" variables accordingly to the skills related to the current certificate; \
-Change the "_certificateColour_" variable with the colour that fits your certificate the most. The "_certificateGradationLeft_" and "_certificateGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
-Add as many certificates as you desire in the "_certificates_" variable.
+Fill the variables requiring to insert a value related to your education, which are currently filled with the `INSERT_[variableName]` placeholder, note that the `certificateLink` variable can be left empty by filling it with an underscore ( _ ); \
+Modify the `certificateSkills` variables accordingly to the skills related to the current certificate; \
+Change the `certificateColour` variable with the colour that fits your certificate the most. The `certificateGradationLeft` and `certificateGradationRight` variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors); \
+Add as many certificates as you desire in the `certificates` variable.
 
 - Your Skills:
 ```json
@@ -259,15 +259,15 @@ Add as many certificates as you desire in the "_certificates_" variable.
     ]
 ```
 The skills section is divided in various groups of connected skills; \
-Add as many skill groups as you desire in the "_skillGroups_" variable; \
-For each skill group modify the "_skillGroupSkills_" variables accordingly to the skills related to the current skill group; \
-For each skill group change the "_skillGroupColour_" variable with the colour that fits your skill group the most. The "_skillGroupGradationLeft_" and "_skillGroupGradationRight_" variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors).
+Add as many skill groups as you desire in the `skillGroups` variable; \
+For each skill group modify the `skillGroupSkills` variables accordingly to the skills related to the current skill group; \
+For each skill group change the `skillGroupColour` variable with the colour that fits your skill group the most. The `skillGroupGradationLeft` and `skillGroupGradationRight` variables create a gradation fade effect. The available colours and gradations can be seen in the [TailwindCSS Colors Documentation](https://tailwindcss.com/docs/colors).
 
 ## Execution <a name = "execution"></a>
 
 ### Build <a name = "build"></a>
 
-To generate the final build, simply navigate to the "_portfolio-website_" folder and run the _npm run build_ command as shown:
+To generate the final build, simply navigate to the `portfolio-website` folder and run the _npm run build_ command as shown:
 ```bash
 $ cd path/to/portfolio-website
 $ npm run build
