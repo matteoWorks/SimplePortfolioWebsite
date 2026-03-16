@@ -30,7 +30,7 @@
 ## About <a name = "about"></a>
 
 This repository provides a simple, customizable template for a portfolio website built with React and TailwindCSS. Feel free to personalize it by replacing the placeholder information with your own. \
-The result can be seen on my own [website](https://matteobaggio.com). 
+The result can be seen on my own [website](https://matteobaggio.com/old). 
 
 ## Getting Started <a name = "gettingStarted"></a>
 
